@@ -1,0 +1,17 @@
+.logoR img{
+    float: right;
+    max-height: 45px;
+    margin-right: 25px;
+}
+.logoR:hover{
+    filter: invert(100%);
+}
+#logoL img{
+    max-height: 45px;
+}
+body{
+    margin: 0;
+}
+header{
+    background-color: dodgerblue;
+}
