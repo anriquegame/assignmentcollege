@@ -94,3 +94,11 @@ header a{
 #descP{
     padding: 0;
 }
+
+/* list products */
+#listcontent ul > li {
+    list-style-type: none;
+}
+#listcontent ul ul li {
+    list-style-type: disc;
+}
