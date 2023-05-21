@@ -25,3 +25,34 @@ header a{
     max-height: 45px;
     vertical-align: middle;
 }
+
+/* content of the website */
+#content h2{
+    margin-left: 2.5%;
+    font-family: "Arial", sans-serif;
+}
+#content ul{
+    width: 95%;
+    white-space: nowrap;
+    overflow-x: auto;
+
+    margin-left: auto;
+    margin-right: auto;
+    padding: 0;
+}
+#content ul li {
+    list-style-type: none;
+    display: inline-block;
+    border: 1px solid #d5d5d5;
+    margin: 10px;
+    border-radius: 5px;
+    margin-bottom: 15px;
+}
+#content ul li:hover{
+    transform: scale(1.1);
+}
+#content ul li img{
+    width: 200px;
+    height: auto;
+    margin: 10px;
+}
