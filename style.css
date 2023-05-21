@@ -81,3 +81,16 @@ header a{
     background-clip: content-box;
     border-radius: 5px; 
 }
+
+
+/* product style */
+#productContent{
+    font-family: "Arial", sans-serif;
+    padding-left: 40px;
+}
+#nameP{
+    margin-top: 75px;
+}
+#descP{
+    padding: 0;
+}

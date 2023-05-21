@@ -11,7 +11,13 @@ function changeInfo(){
     var arrayProduct = data.find(function(obj) {
         return obj.name === name;
     });
+    document.getElementById("nameP").textContent = arrayProduct.fullName;
     document.getElementById("imgP").src = arrayProduct.imgPath;
-    document.getElementById("nameP").textContent = arrayProduct.name;
-    document.getElementById("descP").textContent = arrayProduct.desc;
+    document.getElementById("priceP").textContent = arrayProduct.price;
+    // document.getElementById("descP").innerHTML = arrayProduct.desc;
+    arrayProduct.desc.forEach(item => {
+        const li = document.createElement("li");
+        li.textContent = item;
+        document.getElementById("descP").appendChild(li);
+    });
 }
