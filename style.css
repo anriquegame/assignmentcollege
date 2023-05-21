@@ -42,6 +42,9 @@ header a{
     margin-left: 2.5%;
     font-family: "Arial", sans-serif;
 }
+#content h2 a{
+    color: dodgerblue;
+}
 #content ul{
     width: 95%;
     white-space: nowrap;
@@ -96,6 +99,12 @@ header a{
 }
 
 /* list products */
+#listcontent{
+    font-family: "Arial", sans-serif;
+}
+#listcontent h1{
+    margin-top: 65px;
+}
 #listcontent ul > li {
     list-style-type: none;
 }
