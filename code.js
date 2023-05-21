@@ -11,5 +11,7 @@ function changeInfo(){
     var arrayProduct = data.find(function(obj) {
         return obj.name === name;
     });
-    alert(arrayProduct.name+arrayProduct.desc+arrayProduct.imgPath)
+    document.getElementById("imgP").src = arrayProduct.imgPath;
+    document.getElementById("nameP").textContent = arrayProduct.name;
+    document.getElementById("descP").textContent = arrayProduct.desc;
 }
