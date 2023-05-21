@@ -6,6 +6,10 @@ body {
 header {
     background-color: dodgerblue;
     overflow: auto;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 2;
 }
 header a{
     margin-top: 5px;
@@ -29,7 +33,12 @@ header a{
 }
 
 /* content of the website */
+#content{
+    margin-top: 80px;
+}
 #content h2{
+    margin-top: 35px;
+    margin-bottom: 10px;
     margin-left: 2.5%;
     font-family: "Arial", sans-serif;
 }
