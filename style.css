@@ -1,17 +1,27 @@
-.logoR img{
-    float: right;
-    max-height: 45px;
-    margin-right: 25px;
-}
-.logoR:hover{
-    filter: invert(100%);
-}
-#logoL img{
-    max-height: 45px;
-}
-body{
+body {
     margin: 0;
 }
-header{
+header {
     background-color: dodgerblue;
+    overflow: auto;
+}
+header a{
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+.logoR {
+    float: right;
+    margin-right: 25px;
+}
+.logoR:hover {
+    filter: invert(100%);
+}
+#logoL {
+    margin-left: 5px;
+    display: inline-block;
+}
+.logoR img, #logoL img {
+    display: inline-block;
+    max-height: 45px;
+    vertical-align: middle;
 }
