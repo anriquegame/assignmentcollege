@@ -63,8 +63,8 @@ header a{
     transform: scale(1.1);
 }
 #content ul li img{
+    height: 130px;
     width: 200px;
-    height: auto;
     margin: 10px;
 }
 /* scroll bar*/
