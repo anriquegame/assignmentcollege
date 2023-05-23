@@ -287,7 +287,196 @@ var data = [
         ],
         "imgPath": "../img/PIXEL.jpg",
         "price": "£470"
+      },
+      {
+        "name": "SAMSUNGTV",
+        "fullName": "Samsung 98 Inch QN90A Neo QLED 4K HDR Smart TV (2021) - UHD With Quantum Matrix Technology With Alexa Built In, Quantum Dot Providing 100% Colour Volume, 3D Object Tracking Sound",
+        "desc": [
+            "Experience The Power Of Neo QLED - The 98 Inch Samsung QN90A Smart TV offers stunning 4K content with 100% colour volume, and the sharpest edges and dazzling contrast thanks to Quantum Matrix Technology and a powerful Neo Quantum 4K UHD Processor.",
+            "A Formidable Viewing Experience - Feel like you have brought the Cinema home with a massive 98 inch screen that comes with built-in ultra-wide viewing angles and also anti-reflection technology for a great picture from any angle with our Neo QLED TV.",
+            "Best In-House Gaming - The QN90A also offers gaming like no other TV thanks to Motion Xcelerator technology that reduces lag and ensures maximum responsiveness when playing your next-gen console on this Neo QLED 4K television.",
+            "All Your Favorite Content In The Same Place - With Samsung TV Plus, enjoy Netflix, Amazon Prime Video, iPlayer, YouTube, and many more, all in one place. Also, our Neo QLED Samsung Smart TV comes with Alexa, Google, and Bixby all built-in.",
+            "Start Experiencing Samsung TVs - We believe a TV is more than something you watch. It should inspire, amaze, envelop, and immerse you. From quality picture to elegant design, our TVs push the boundaries of what is possible and what a TV can be."
+        ],
+        "imgPath": "../img/SAMSUNGTV.jpg",
+        "price": "£8,000.00"
+    },
+    {
+        "name": "HISENSETV",
+        "fullName": "HISENSE 50A6BGTUK 4K UHD Smart TV, with Dolby Vision HDR, DTS Virtual X, YouTube, Netflix, Disney +, Freeview Play and Alexa Built-in, Bluetooth and WiFi (2022 New), Black, (50 Inch)",
+        "desc": [
+            "4K UHD: 4 times higher resolution than FHD TVs. Binge watch your favorite shows, immerse yourself in the latest movies, or thrill in every moment of the hottest games.",
+            "Dolby Vision: Inspired by cinema technology, Dolby Vision HDR technology gives astonishing brightness and contrast depth, with pictures 40 times brighter and blacks 10 times darker than standard.",
+            "DTS Virtual X: Enjoy immersive audio without the need for height speakers. The bass perception engages you in the center of the performance.",
+            "VIDAA U5: An easy, smart, and intuitive OS that provides access to rich content and global applications such as Disney+, YouTube, Netflix, and Freeview Play, making your TV more interesting.",
+            "Sports Mode: When a sports signal is detected, it switches to Sports Mode for an immersive live stadium experience, from picture to sound.",
+            "Game Mode: Game mode boosts your chances of scoring legendary wins by significantly reducing input lag.",
+            "Wireless communication technology: Wi-Fi"
+        ],
+        "imgPath": "../img/HISENSETV.jpg",
+        "price": "£280.00"
+    },
+    {
+        "name": "FIRETV",
+        "fullName": "Introducing Amazon Fire TV 40\" 2-Series 1080p HD smart TV",
+        "desc": [
+            "High definition TV: bring films and TV series to life in HD 1080p resolution, with support for HDR 10, HLG, and Dolby Digital Audio.",
+            "All your entertainment in one place: Fire TV gives you quick access to live TV, video games, and music. You can stream over a hundred thousand films and TV programmes with subscriptions to Netflix, Prime Video, Disney+ and more.",
+            "Stream for free: watch free films and TV episodes with apps, such as YouTube, Freevee, Pluto TV and more.",
+            "Watch from room to room: All of your films and series from Fire TV devices will stay in sync, for a seamless viewing experience from one room to the next.",
+            "Smart and always getting smarter: Fire TV adds new Alexa skills, features, smart home capabilities and voice functionality all the time.",
+            "Press and ask Alexa: use the Fire TV Alexa Voice Remote to find your favorite content, get sports updates, control smart home devices and more.",
+            "Connect all your devices: use the 2 standard HDMI inputs to connect to satellite TV and video game consoles. Use the HDMI ARC to input audio equipment for enhanced sound."
+        ],
+        "imgPath": "../img/FIRETV.jpg",
+        "price": "£300.00"
+    },
+    {
+        "name": "XIAOMITV",
+        "fullName": "Xiaomi F2 55 inch Smart Fire TV 138 cm (4K Ultra HD, FreeviewPlay, HDR10, Metal frameless, Prime Video, Netflix, Alexa voice control, HDMI 2.1, Bluetooth, USB)2022",
+        "desc": [
+            "4K ULTRA HD RESOLUTION - Compared to Full HD we provide four times the resolution and you will be able to explore all the details and colours.",
+            "COLOURS - Now you can see all the content with greater depth of colour with WCG technology and brilliant brightness for a more realistic viewing experience because of HDR 10.",
+            "ENDLESS ENTERTAINMENT - with Fire TV built-in, enjoy thousands of apps and channels including BBC iPlayer, Netflix, Prime Video, YouTube, Disney+, ITV Hub and many more (subscription fees may apply).",
+            "SMART VOICE CONTROL: control the Smart TV easily with the included Alexa voice remote control. Change channels, adjust volume, open apps and much more. You can also operate other compatible smart home devices in your household, and all of this with just your voice.",
+            "GAMING - Based on the 4x HDMI 2.1 connectors with the ALLM function and short response time of the panel, this TV supports you entirely to achieve the best in your game.",
+            "An Amazon account is required for full use of all functions. Additional costs for subscriptions may apply when using streaming services."
+        ],
+        "imgPath": "../img/XIAOMITV.jpg",
+        "price": "£1,800.00"
+    },
+    {
+        "name": "RCATV",
+        "fullName": "RCA RB32HD1A 32 Inch TV, Freeview HD Dolby Digital Audio TV, DVB T2/S2 HD LED Backlighting Display, HDMI USB Earphone Output Media Player Monitor for PS5 Xbox, Small TV for Bedroom Kitchen Black",
+        "desc": [
+          "The RCA 32 inch TV is a great choice for those who want a basic, non-smart TV. This TV offers the same quality picture as a Smart TV, but without all the bells and whistles. It's also more affordable than a Smart TV, and you don't have to worry about being overwhelmed by complicated technology. Plus, it has enough ports and connectors to support your basic cable and streaming needs. So if you're looking for a reliable, affordable television for your British home, this TV is the perfect choice.",
+          "The RB32HD1 non-smart TV is the perfect choice for those who want to enjoy the best of British TV. With Freeview, you can access over 70 digital channels and 25 radio stations, letting you stay up to date with the latest news, sports, and entertainment.",
+          "RCA 32\" TV: Your RCA 32 inch TV provides you with stunning visual effects, vibrant colors, crystal clear audio, and eye-catching slim designs. With its lightweight design, it is perfect for your living room, home, or conference room.",
+          "Dolby Sound System: This RCA 32-inch non-smart TV comes with Dolby sound, providing you with a superior sound quality experience. With its advanced audio technology, it offers a cinematic experience with deep bass and clear highs, allowing you to enjoy every moment of your entertainment.",
+          "MACE Color Engine and Triple Noise Reduction: The RCA 32 inch TV comes with the MACE Color Engine feature, providing excellent picture quality. Its color engine technology can bring out lifelike colors and accurate contrast, making every scene come alive. It also features a noise reduction function that reduces picture noise for a more immersive experience. With this feature, you can enjoy the best possible picture quality.",
+          "Various Interfaces: Your RCA TV with multiple ports such as HDMI, USB, VGA, and AV, this TV is perfect for connecting to various devices. It also supports direct connection to laptops, gaming consoles, SKY box, Virgin box, and other devices. With the RCA 32-inch non-smart TV, you can enjoy a truly immersive experience with all your favorite devices."
+        ],
+        "imgPath": "../img/RCATV.jpg",
+        "price": "£100.00"
+      },
+      {
+        "name": "PHILIPSTV",
+        "fullName": "PHILIPS 55PUS7607/12 55-Inch 4K LED TV | UHD & HDR10+ | Dolby Vision & Dolby Atmos | Google Assistant & Alexa Compatible",
+        "desc": [
+          "VIBRANT VIEWING: This 4K TV features Philips Pixel Precise Ultra HD engine technology, optimizing picture quality to deliver sharp images, rich colors, and smooth motion, ensuring you get the best possible viewing experience every time. HDR compatibility offers incredible picture performance with more realism and enhanced contrast.",
+          "CINEMATIC DOLBY VISION AND DOLBY ATMOS: This UHD TV incorporates cutting-edge Dolby Vision and Dolby Atmos functionality, making your films, shows, and games look and sound incredible. See the picture exactly how the director intended and experience sound effects like they're really happening around you.",
+          "SLIM DESIGN. RESPONSIBLE PACKAGING: This stylish TV has a virtually bezel-free screen, allowing it to match with any interior, with slim, matte-black feet that make it seem as if the screen is floating. All packaging and inserts use recycled cardboard and paper for sustainability.",
+          "GREAT FOR GAMING: This Philips TV features HDMI connectivity, Variable Refresh Rate (VRR), and an automatic low-latency setting for consoles, delivering fast gameplay and smooth graphics on every game console.",
+          "SMART. FUN. EASY TO CONTROL: The fast, intuitive SAPHI operating system makes your Philips Smart TV a pleasure to use. Enjoy great picture quality and one-button access to a clear icon-based menu, with easy access to all your favorite Smart TV apps like Netflix, Disney+, and Amazon Prime Video."
+        ],
+        "imgPath": "../img/PHILIPSTV.jpg",
+        "price": "£430.00"
+      },
+      {
+        "name": "LGTV",
+        "fullName": "LG LED UQ75 50\" 4K Smart TV",
+        "desc": [
+          "Sharp 4K Ultra HD viewing with intelligent processor for a stunning picture",
+          "WebOS Immersive sound quality with AI Sound platform with Freeview Play, Netflix, Disney+, and more",
+          "WebOS smart platform with Freeview Play, Netflix, Disney+, and more",
+          "Instant movie theatre with FILMMAKER mode and HDR",
+          "Enhance your gaming experience with built-in Game Optimizer and ALLM"
+        ],
+        "imgPath": "../img/LGTV.jpg",
+        "price": "£360.79"
+      },
+      {
+        "name": "TOSHIBATV",
+        "fullName": "Toshiba UF3D 43 Inch Smart Fire TV 109.2 cm (4K Ultra HD, HDR10, Freeview Play, Prime Video, Netflix, Alexa voice control, HDMI 2.1, Bluetooth, Airplay)",
+        "desc": [
+          "Watch 4K HDR content in all its glory on the all-new Ultra HD with Fire TV built-in. Dolby Vision HDR transforms your TV experience with ultra vivid picture quality.",
+          "Toshiba TRU picture technology provides smooth, upscaled and more detailed viewing whatever you`re watching.",
+          "With Dolby Atmos combined with Toshiba`s integrated speakers, designed by Onkyo, this 4K Ultra HD with Fire TV built-in Series has everything you need for a cinematic sound experience.",
+          "All your entertainment in one place - Fire TV built-in seamlessly integrates your favourite live broadcast TV and all your favourites from BBC iPlayer, Netflix, Prime Video, Now, Disney+ and more. Subscription fees may apply.",
+          "The included Fire TV Voice Remote with Alexa lets you use your voice to easily find, launch and control content, check sports scores, weather forecast, and even control compatible smart home devices.",
+          "Watch what you want - Toshiba 4K Ultra HD with Fire TV built-in Series gives you access to hundreds of thousands of films and TV episodes."
+        ],
+        "imgPath": "../img/ToshibaTV.jpg",
+        "price": "£250.00"
+      },
+      {
+        "name": "TCLTV",
+        "fullName": "TCL 32S5209K TV- 32-Inch TV Smart HD Television with Android TV - HDR & Micro Dimming - Compatible with Google Assistant, Chromecast & Google Home, Slim Design, Dolby Audio, Bluetooth, Wi-Fi",
+        "desc": [
+          "WATCH SMARTER: 32S5209K runs an Android Operating System - watch Netflix, YouTube and more straight out of the box. Enjoy Google Assistant, Chrome Cast and download more via the Google Play Store. Plus plug in and play with HDMI and USB connectivity. Freeview Play not included..VESA size 100 x 100 mm",
+          "MORE COLOURS WITH DEEPER CONTRAST featuring HDR and micro dimming technologies - Colours and contrast are intelligently optimised in every frame.",
+          "CONNECT WIRELESSLY AND BE CABLE FREE. Connect directly to Wi-fi and Bluetooth, both options are ready to use. / Equipped with Bluetooth and Chromecast connectivity, enabling users to connect wireless devices with ease and cast from computers or smartphones.",
+          "A SLIM DESIGN IS ADOPTED FOR MORE VIEWING, making it an ideal TV for any room in the house - from the kitchen to the bedroom or for gaming. Display on a TV stand via the foot mounts or hang via rigorously tested rear brackets. Note wall bracket specifications = width 100mm x height 100mm.",
+          "WORRY-FREE WARRANTY: Comes with a 2-year warranty. For support email or call: uksupport@tcl.com/ 0203 795 3308.",
+          "INCLUDED COMPONENTS: TV Remote Control; Display size: 32.0 inches; Power source type: Corded Electric; Resolution: 1366x768",
+          "COMPLETELY FLAT SCREEN WITH LIGHTWEIGHT CONSTRUCTION AND A CONTEMPORARY LOOK, which will slot into living rooms seamlessly."
+        ],
+        "imgPath": "../img/TCLTV.jpg",
+        "price": "£140.00"
+      },
+      {
+        "name": "SYLVOXTV",
+        "fullName": "SYLVOX 65inch Outdoor TV,4K Smart Android TV Dolby Atmos IP55 Waterproof Support Bluetooth & Wi-Fi, Deck Pro Series,Commercial Grade 7x16H, 1.07Billion Display Colors,DVB-T2/S2",
+        "desc": [
+          "【Smart TV】SYLVOX Android TV with Google Play built in, easily subscribe to your favourite apps and content, and built-in genuine NETFLIX, YouTube, VUDU, Pandora, easily get an excellent viewing experience.",
+          "【Built-in Dolby Atoms & Dual speakers】Built-in dual speakers for up to 50% better sound than regular TVs and Dolby Atoms technology Built in for an immersive experience",
+          "【IP55 Waterproof Outdoor TV】 SYLVOX Outdoor TV is specially designed for outdoor entertainment. The all-metal shell can be effectively waterproof, windproof and dust-proof, and can adapt to various outdoor weather conditions. Suitable for partial sun areas such as patios, porches, swimming pools and more",
+          "【3840*2160 resolution 4K】 SYLVOX outdoor smart television is equipped with 3840*2160 resolution 4K UHD, 1000 nits brightness, Brighter than domestic TVs, adaptable to strong outdoor light. and ultra-wide color gamut of picture levels and details create stunning picture quality, more obvious details, and stronger sense of hierarchy, allowing you to immerse yourself in wonderful visual enjoyment.",
+          "【No Worries Guarantee】 We take full responsibility for the outdoor TV, if there is any problem with the 55inch television you received, please feel free to contact us, we provide every customer with 30-day return and one-year warranty service to ensure you have a wonderful shopping experience."
+        ],
+        "imgPath": "../img/SYLVOXTV.jpg",
+        "price": "£2,600.00"
+      },
+      {
+        "name": "T4TECTV",
+        "fullName": "T4TEC BRITISH designed 32 inch LED TV, HD Ready, Freeview HD, Black",
+        "desc": [
+          "HD quality & Freeview HD",
+          "HDMI Ports x 2",
+          "Freeview HD - 70 free channels including 15 in HD",
+          "OSD Languages Eng / Fra / Spa Deu / Ita / Fin / Swedish",
+          "DVB - T2",
+          "DVB DVB - S2",
+          "AV Input x 1"
+        ],
+        "imgPath": "../img/T4TECTV.jpg",
+        "price": "£110.00"
+      },
+      {
+        "name": "BAUHNTV",
+        "fullName": "Bauhn BN43UHDS22UK 43 Inch 4K UHD Smart Android TV with Freeview Play, YouTube, Netflix, Chromecast built-in, HDMI, USB, Bluetooth. Black (2022 model)",
+        "desc": [
+          "Bauhn bn43uhds22uk 43 inch",
+          "4k uhd smart android tv with freeview",
+          "Play, youtube, netflix, chromecast built-in, hdmi, usb, bluetooth. Black (2022 model)"
+        ],
+        "imgPath": "../img/BAUHNTV.jpg",
+        "price": "£220.00"
+      },
+      {
+        "name": "IFFALCONTV",
+        "fullName": "iFFALCON iFF55U62K TV 55 Inch 4K Smart UHD HDR Android TV (4K Ultra HD, Dolby Vision, Google TV, Google Assistant)",
+        "desc": [
+          "4K HDR: Stunning 4K display is enhanced with the addition of the latest in high dynamic ranging (HDR). Dynamic tone mapping optimizes picture quality, frame-by-frame - intelligently enhancing range of tones, brightness, and contrast. Boost your entertainment, and enjoy more nuanced content",
+          "Unlimited Content & Freeview Play: Comes with the latest Android operating system, iFFALCON TV provides abundant content. You can discover your favorite shows and movies via an unrivaled range of apps, such as YouTube, Netflix, Amazon Prime, plus download more via the Google Play Store. With Freeview play, you are allowed to find programmes from BBC iPlayer, ITV Hub, All 4, Demand 5 and UKTV Play sitting alongside 70 TV channels and 15 HD channels",
+          "Chromecast Built-in: Chromecast lets you cast your favorite videos, games, and apps from your mobile device, in full quality, to your smart TV. Just one tap of the Cast button on your Android or iOS screen is all you need to supersize the things you love. Cast your content then continue browsing on your phone or tablet",
+          "Immersive Dolby Audio & Smart Volume: Increase the power of your entertainment with the enhanced sound of Dolby Audio. iFFALCON TV`s Smart Volume feature automatically adjusts programming volume thus eliminating sudden sound fluctuations typically experienced when switching channels or when television commercials air",
+          "Sport mode&Game mode: It switches to Sports Mode when a sports signal is detected, for an immersive live stadium experience, from picture to sound. Game mode boosts your chances of scoring legendary wins by significantly reducing input lag"
+        ],
+        "imgPath": "../img/IFFALCONTV.jpg",
+        "price": "£330.00"
+      },
+      {
+        "name": "PANASONICTV",
+        "fullName": "Panasonic 50 inch LX650 Android TV with Dolby Vision, Dolby Atmos and Voice Control, Compatible with Ok Google and Alexa",
+        "desc": [
+          "4K HDR - Superb picture quality - Detailed 4K Ultra High Definition picture with the extra colour and brightness of High Dynamic Range",
+          "Smart TV - Access to popular internet apps - Enjoy watching content on YouTube, Netflix and Amazon Prime all with a flick of a button.",
+          "Dolby Vision- Picture perfection, scene-by-scene - Dolby Vision brings compatible UHD Blu-ray discs and 4K video streaming to life - with exceptional colour, contrast and brightness.",
+          "Dolby Atmos- Immersive sound that fills the room - Dolby Atmos, found in the newest cinemas, and on our premium TVs expresses sound with astonishing clarity, richness and depth. Sound effects are precisely placed in virtual space and time to envelope you in the atmosphere.",
+          "HDR Multi Format - Optimal brightness and colour - whatever the source - By supporting 3 leading HDR (High Dynamic Range) formats our premium TVs assure best possible performance - regardless of picture source. Brightness and colour are optimized whether the source is Dolby Vision, HLG, HDR10."
+        ],
+        "imgPath": "../img/PANASONICTV.jpg",
+        "price": "£550.00"
       }
-      
-      
 ]
