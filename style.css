@@ -132,9 +132,9 @@ footer p{
 /* list products */
 #listcontent{
     font-family: "Arial", sans-serif;
-}
-#listcontent h1{
-    margin-top: 65px;
+    margin-top: 50px;
+    flex: 1;
+    padding-bottom: 60px; /* Altura do footer */
 }
 #listcontent ul > li {
     list-style-type: none;

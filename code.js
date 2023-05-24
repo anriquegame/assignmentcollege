@@ -31,15 +31,17 @@ function changeInfo(){
 function fillList() {
     data.forEach(obj => {
         var element = document.getElementById(obj.name);
-        element.querySelector("h2").textContent = obj.fullName;
-        element.querySelector("h3").textContent = obj.price;
-        element.querySelector("img").src = obj.imgPath;
+        if(element){
+            element.querySelector("h2").textContent = obj.fullName;
+            element.querySelector("h3").textContent = obj.price;
+            element.querySelector("img").src = obj.imgPath;
 
-        var descList = element.querySelector("ul");
-        obj.desc.forEach(item => {
-            var li = document.createElement("li");
-            li.textContent = item;
-            descList.appendChild(li);
-        });
+            var descList = element.querySelector("ul");
+            obj.desc.forEach(item => {
+                var li = document.createElement("li");
+                li.textContent = item;
+                descList.appendChild(li);
+            });
+        }
     });
 }
