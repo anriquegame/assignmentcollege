@@ -59,7 +59,7 @@ var data = [
           "Connectivity includes USB-C, 2x USB 3.0, Mini-HDMI, 3.5mm and MicroSD (up to 64GB) slot."
         ],
         "imgPath": "../img/GEOBOOK.jpg",
-        "price": "£99.99"
+        "price": "£100.00"
     },
     {
         "name": "SGIN",
@@ -258,7 +258,7 @@ var data = [
           "With 64/128GB of internal storage for your photos and videos, plus support for a microSD card up to 1TB, you'll get lots of space to store your precious moments."
         ],
         "imgPath": "../img/GALAXY.jpg",
-        "price": "£170"
+        "price": "£170.00"
       },
       {
         "name": "BLACKVIEW",
@@ -271,7 +271,7 @@ var data = [
           "【Face+Fingerprint Unlock】A52 smart phones lets your unique face be your key to unlock your phone quickly and safely. 2-in-1 power button and fingerprint sensor, just touch the button with your finger to unlock your phone instantly! It only takes 0.1 seconds to unlock! A52 uses smooth external lines to enhance the texture of the cell phone, making it lightweight and advanced. 2 years warranty, please contact us if you have any questions. A52 phones have more surprises waiting for you to discover!"
         ],
         "imgPath": "../img/BLACKVIEW.jpg",
-        "price": "£80"
+        "price": "£80.00"
       },
       {
         "name": "PIXEL",
@@ -286,7 +286,7 @@ var data = [
           "The Pixel 7 display is super sharp, with rich, vivid colours. And it's fast and responsive for smoother gaming, scrolling and moving between apps"
         ],
         "imgPath": "../img/PIXEL.jpg",
-        "price": "£470"
+        "price": "£470.00"
       },
       {
         "name": "OSCAL",
@@ -302,7 +302,7 @@ var data = [
           "【Face/Fingerprint Unlocking & 2 Years Warranty】OSCAL C80 supports 2 in 1side fingerprint power button, easy to reach and unlock in a snap, supports also face, password, and PIN unlocking. With C80, you can also experience the four navigation systems, including GPS, GLONASS, Galileo and Beidou, to provide more accurate positioning in all corners of the planet. OSCAL C80 smartphone offers a 24-month warranty. If you have any questions during use, please contact the seller, we will get back to you within 24 hours."
         ],
         "imgPath": "../img/OSCAL.jpg",
-        "price": "£130"
+        "price": "£130.00"
       },
       {
         "name": "5G",
@@ -317,7 +317,7 @@ var data = [
           "【Glove Mode + Android 11 + More Features】The BL8800 Pro is equipped with a glove mode, allowing you to use your phone while wearing gloves during sports or winter, and supports 4G VoLTE with two slots at the same time. Based on Android 11, Doke OS 3.0 adds more convenient custom system functions to bring you a more personalized experience. More functions: Multi-function NFC, Lanyard hook, GPS & GLONASS & Beidou & Galileo, Air pressure sensor, Liquid cooling system, Underwater mode, etc."
         ],
         "imgPath": "../img/5G.jpg",
-        "price": "£470"
+        "price": "£470.00"
       },
       {
         "name": "UMIDIGI",
@@ -330,7 +330,7 @@ var data = [
           "【Dual SIM and other useful features】The UMIDIGI C1 Max hands-free phone has two card slots, so you can insert two different Nano SIM cards and use them on the same phone. Alternatively, a Nano sim card and a MicroSD card can be inserted. In addition, it is equipped with fingerprint recognition, facial recognition and GPS. You can check real-time information such as altitude, pressure, direction and position from anywhere."
         ],
         "imgPath": "../img/UMIDIGI.jpg",
-        "price": "£120"
+        "price": "£120.00"
       },       
       {
         "name": "SAMSUNGTV",
@@ -522,5 +522,147 @@ var data = [
         ],
         "imgPath": "../img/PANASONICTV.jpg",
         "price": "£550.00"
+      },
+      {
+        "name": "MIC",
+        "fullName": "JLab Talk Go USB Microphone - Condenser PC Mic, Podcast, Streaming Microphones, Gaming, Office Computer Desk & Laptop - Portable, Plug & Play, Professional Grade Recording, Studio Quality Resolution",
+        "desc": [
+          "COMPACT, LIGHTWEIGHT AND PORTABLE: Meet Talk GO, a compact, lightweight and portable USB microphone with speaker and studio-quality performance. Offering a generous resolution of 96kHz/24BIT, Talk GO is great for calls, podcasts, gaming, ASMR, and voice overs using its two directional pattern modes, Cardioid and Omnidirectional.",
+          "PROFESSIONAL GRADE RECORDING: Talk GO features a studio-quality resolution of 96kHz/24BIT to ensure clear, detailed, and dynamic sound range recordings for everyday use. With its compact fit and lightweight build, you can bring it anywhere, anytime; the perfect streaming mic.",
+          "2 DIRECTIONAL PATTERN MODES: Talk GO features two directional pattern modes: Cardioid and Omni. Great for individual or business calls, voiceovers, podcasting, music recording, and even ASMR. Choose the mode that suits your needs.",
+          "CONTROL YOUR RECORDING: Adjust the loudness with the volume control to suit your audio preference. Talk GO features a Quick-Mute button for easy access and a 3.5mm AUX input for real-time listening with zero latency.",
+          "PLUG AND PLAY USB CONDENSER MICROPHONE: Talk GO offers a 5-foot USB/USB-C input cable to plug into your device and operate your recording hassle-free. Use the standard-sized 5/8” input for swivel mounting anything, like camera tripods or other stands. Talk GO is driver-free and features plug and play, allowing you to start recording within seconds."
+        ],
+        "imgPath": "../img/MIC.jpg",
+        "price": "£30.00"
+      },
+      {
+        "name": "AIRPOP",
+        "fullName": "JLab Go Air Pop True Wireless Earbuds, Headphones In Ear, Bluetooth Earphones with Microphone, Wireless Ear Buds, TWS Bluetooth Earbuds with Mic, USB Charging Case, Dual Connect, EQ3 Sound, Black",
+        "desc": [
+          "AUTO ON & CONNECT: The Go Air Pop True Wireless Earbuds turn on and connect to each other automatically. Just take them out of their USB charging case for seamless, hassle-free connection. Then just connect to your phone. Utilising Bluetooth 5.1, this is our fastest hands-free connection yet.",
+          "SMALLER FIT EAR PODS: Smaller than a credit card, the Go Air Pop case fits in your pocket and the TWS Bluetooth earbuds are our smallest yet; 15% smaller and 40% lighter with the compact case than the Go Air buds. Ideal for the gym, sport or to carry while running. Try the three tip sizes to get a snug in-ear headphones fit and create a perfect seal for crystal clear sound.",
+          "CUSTOM EQ3 SOUND: Bluetooth earphones with a microphone featuring 8mm neodymium drivers, GO Air Pop provides crystal clear sound. Tune the Go Air Pop sound to your personal preferences with JLab’s Signature, Balanced, and Bass Boost EQ modes – without the need for an app. You control your sound.",
+          "BATTERY LIFE: Listen for the long battery life with your wireless earphones; stay for the comfort. GO Air Pop features 8 hours of playtime in each earbud and 24+ extra hours from the charging case. That’s 32+ hours of playtime with your Bluetooth headphones.",
+          "DUAL CONNECT & CONTROL IT ALL: Use either earbud independently or use both and experience a seamless connection. Both earbuds auto-connect to your device, so no need to worry about switching or missing a connection. A built-in MEMS microphone in each bud ensures clear calls. Conveniently control all your music with a push or two on the outside of the earpiece to activate Siri, Google Assistant, and other voice assistants or take phone calls and keep GOing on the move."
+        ],
+        "imgPath": "../img/AIRPOP.jpg",
+        "price": "£30.00"
+      },
+      {
+        "name": "EPICMOUSE",
+        "fullName": "JLab Epic Wireless Mouse - Connect Via Bluetooth or USB Receiver, Ergonomic Bluetooth Mouse, Multi Device Rechargeable Wireless Mouse for Laptop Computer/PC/Tablet/Windows/Mac/More, Quiet Click Mice",
+        "desc": [
+          "FLEXIBLE CONNECTIONS: The JLab Epic Mouse is compatible with three simultaneous device connections. Connect this computer mouse via Bluetooth 5.2 or the USB Wireless Dongle (2.4 GHz) to nearly any type of device. Easily switch between saved devices like your computer, tablet, phone, etc. with a click of a button.",
+          "COMFORT-IN-HAND MOUSE DESIGN: As you could be using it for almost eight hours a day, it's important that it's comfortable and quiet. This Bluetooth and wireless mouse has been designed for maximum comfort and functionality. We also design all of our mice with silent buttons. Some call it ergonomic, we just call it designed perfectly for you.",
+          "OLED DISPLAY: Quick, real-time access to battery life, DPI settings, and device connection options. Ability to access hardware custom controls with no app required. You’re a wizard of efficiency, and you’ve got the ergonomic mouse to prove it.",
+          "RECHARGEABLE BATTERY: Who wants to go digging around looking for AAA batteries? We sure don’t. The Epic Wireless Bluetooth Mouse has a convenient rechargeable battery that powers you for 4+ months* so you don’t ever have to skip a beat. No interruptions, less waste.",
+          "CUSTOM USER PROFILES: Through the JLab Work App, you can program specific buttons to fit how you like to use your favorite applications. Paste your most used formulas or paste the same text with a simple click of a button. With up to three unique profiles, you can easily switch between them depending on what you’re doing."
+        ],
+        "imgPath": "../img/EPICMOUSE.jpg",
+        "price": "£60.00"
+      },
+      {
+        "name": "MASCARNEY",
+        "fullName": "【2 Pack】 TI3+TH4 Wired USB Type C Headphones, In Ear USB C Earphones with Microphone for Samsung S20, Huawei P30 P40, OPPO, Honor, Google Pixel and Other Smartphones with Type-C Interface",
+        "desc": [
+          "【Value for Money】 2 pairs of MAS CARNEY earphones packed, TI3 a wired earphone in black color and TH4 a wired earphone in white color. TI3 with S/M/L size ear tips.",
+          "【Universal Compatibility】The USB C earphones are compatible with Samsung A53/S22/S21/S20/S20 FE/Z-Flip/Fold 3/2/Note 20/10+, Huawei P40 Pro/P40/P30 Pro/P30/Mate30 Pro/ Mate20 Pro, OnePlus 10 9 Pro/9/Nord/8T/8/7T/7/6T, Google Pixel 6 6 Pro 5 4 3 2 XL, iPad Air 2020 2022 / iPad Pro 2021/2020/2018/ and other Type-C audio devices. ★ Note: iPad Pro, and other models only support listening to music, not calling.",
+          "【Built-in Microphone and Volume Control】Built-in earpiece hands-free allow you to enjoy music without interruption or talk anywhere on your phone. The volume control key is pushed up and down to control volume +/-. Multi-function button, click to start/pause, answer or hang up/reject a call, double click previous song, triple click next song. Notice: Open 'OTG' and 'Developer Mode' in your 'Phone Settings' to avoid sound coming out from the phone instead of headphones.",
+          "【Superior Sound Quality】The USB C headphones have the latest high-quality built-in chips, which can balance treble and bass, reduce sound transmission loss, and provide clear Hi-Fi stereo sound. Compatible with most USB C audio output devices on the market. The perfect sound quality lets you immerse yourself in your favorite music.",
+          "【Customer Service】 Standard Amazon after-sales service is provided. We have checked the appearance and function of all wired headsets before shipping. If there is any damage, original defect, or another transportation defect, we will provide free product replacement or resend support. If you have any questions about products or purchases, please do not hesitate to contact us."
+        ],
+        "imgPath": "../img/MASCARNEY.jpg",
+        "price": "£10.00"
+      },
+      {
+        "name": "SRHYTHM",
+        "fullName": "NC85 Dynamic Hybrid Noise Canceling Headphones Bluetooth Wireless Over the Ear with HD Sound, Quick Charge, Ultra-long Playtime, Multi-modes Switchover",
+        "desc": [
+          "Active Noise Cancelling: By Srhythm dynamic hybrid electronic noise reduction technology, quelling 95% ambient noise effectively (Kindly note that human sound cannot be canceled totally and not 100% sound canceling). Get rid of noise when you are in the bus, subway, airplane, etc.",
+          "Multi-modes Switchover: ANC mode, Transparency mode, and Normal mode only by pressing the one ANC button to switch. The ingenious mics will pick up and enlarge the human voice for hearing easily when you enter the Transparency Mode, so that you could hear much more clearly and communicate sufficiently without taking down your headset.",
+          "HD Sound Quality: Perfect curve of audio frequency to keep a great balance of sound, quiet, and comfort. Sound enjoyment by calling, learning, listening to audiobooks and music, etc. to find the rhythm of your soul.",
+          "Ultra-long Bluetooth Connection and Battery Life: 30-50 feet Bluetooth operation distance without obstacles. Built-in 750mAh big battery to support 30 hours’ playtime. Quick Charge 10 minutes (via included USB-C cable) to offer 3 hours for some urgency, or plug in the included audio cable when the battery is low to listen to the wired version as a backup. Exclusive Srhythm Over-voltage protection technology ensures safety during headset charging.",
+          "Over the Ear: Enhanced physical noise reduction by seamless over-ear pads, super comfortable wearing experience by breathable well-made materials. What’s more, Exclusive Designs of Air Pressure Balance by Srhythm. To reduce sound wave pressure of active noise reduction, to feel much more comfortable to wear than all other brands."
+        ],
+        "imgPath": "../img/SRHYTHM.jpg",
+        "price": "£50"
+      },
+      {
+        "name": "WEBCAM",
+        "fullName": "Webcam 1080P for PC, PAPALOOK FHD Business Web Camera with Noise-Canceling Mic, Manual Focus Computer Camera, Auto Light Correction, for Video Conferencing, Teaching, Streaming, and Gaming - PA452 Pro",
+        "desc": [
+          "1080P FHD Image Quality: Shows you the best with PAPALOOK webcam. 5-layer glass HD lens & advanced CMOS image sensor delivers sharp and crystal clear video at a fluid 30 fps. Easily capture every moment in the online conference with clear details, and achieve zero-distance communication with the remote conference site.",
+          "Built-in Dynamic Noise Reduction Microphone: With advanced echo cancellation and an intelligent noise reduction algorithm, makes the sound clearer and more natural even in a noisy environment. The pickup distance can reach up to 4 ft, and the speeches of all the participants at the venue can be picked up clearly.",
+          "Auto Low-Light Correction: PAPALOOK PA452 Pro computer camera automatically adjusts white balance, light sensitivity, and backlight compensation based on ambient brightness for accurate portrait exposure and incredible high-definition images even in poor lighting conditions, keeping you bright always.",
+          "Stable Manual Focus Computer Camera: Unique manual focus design, independent control of the sharpness, captures HD video at a 90 wide-angle, giving you an unparalleled perspective for a wide variety of conditions. More stable focus than autofocus if you do not need to change position frequently.",
+          "Easy Plug and Play, Excellent Compatibility: No additional adapters or drivers required. The USB 2.0 plug and play gets you set up and installed on your laptop, desktop, or TV within seconds. You can use the webcam in most popular conferencing APPs, such as Skype, Zoom, Microsoft Teams, Facebook, Twitch; supports almost all operating systems, including Windows XP/7/8/10/11 and above, Mac OS 10.6 and above, Android V5.0 and higher, and Chrome OS 29.0.1547 or later."
+        ],
+        "imgPath": "../img/WEBCAM.jpg",
+        "price": "£40"
+      },
+      {
+        "name": "WIRELESSMOUSE",
+        "fullName": "Wireless Mouse for Laptop Silent Cordless USB Mouse Wireless Optical Computer Mouse, 6 Buttons, AA Battery Used, 1600 DPI with 3 Adjustable Levels for Windows 10/8/7/XP/Mac/Macbook Pro/Air/HP/Acer",
+        "desc": [
+          "Silent Click Noiseless Mouse: Would you like to do your job without missing a sound or disturbing your environment? Choose LEADSAiL quiet mice; you will enjoy the same click feeling with over 90% less click noise.",
+          "High Precision LED Mouse: Would like to take full control of your every aim with perfect tracking? Choose LEADSAiL optical LED wireless mouse. Featuring 3 adjustable DPI (1600/1200/800), the laser-grade engine ensures smooth cursor control and precision tracking on virtually any surface.",
+          "Plug and Play Travel Mouse: Plug and go ready, LEADSAiL USB wireless travel mouse works with Windows, Mac, Chrome OS, or Linux-based computers of Notebook, PC, Laptop, Computer, MacBook. Please kindly note: the side buttons are unavailable under the Mac OS system.",
+          "Portable Slim Mini Mouse: The slim mini mouse adopts shapely, domed design for giving your palm plenty of support and seamlessly fits in your hand, so you can work or play comfortably for long hours.",
+          "Energy Saving Mobile Mouse: LEADSAiL mobile mouse keeps going with months battery life of power on a single AA battery (Not included in the package). Automatic sleep mode and an On/Off switch save power, while an indicator light eliminates surprises. (Battery life may vary based on use and computing conditions.)"
+        ],
+        "imgPath": "../img/WIRELESSMOUSE.jpg",
+        "price": "£10"
+      },
+      {
+        "name": "AUXADAPTER",
+        "fullName": "MAS CARNEY USB Type C to 3.5mm Female AUX Adapter, Audio Headphone Jack, Compatible with Samsung Huawei OPPO Vivo Google Pixel iPad Pro MacBook",
+        "desc": [
+          "True Digital Music: Inbuilt DAC chipset, provides you true digital music with phone call supported.",
+          "Mini Adapter: 10cm long, 3.5g weight, with black/white color choice, perfectly match your smartphone.",
+          "Plug and Play: Plug and play, convenient to use. Just open OTG Feature or Developer Mode at your Phone Setting page when you find the voice is coming outside from your smartphone.",
+          "Better Compatibility: This audio adapter supports 99% standard USB C music devices. It is compatible with Samsung S22, S21, S20, S20+ Ultra, Note 10, 20 Ultra, Google 5, 4, 3, 2 XL, K1, U7mini, U7L, Huawei Mate 10, 10 Pro, P20, P20 Pro, HTC U11+, Moto Z3, Oppo, Vivo, iPad Pro, MacBook, Laptop, Computer, and more.",
+          "Reliable Service: Standard Amazon after-sales service is provided. We have checked the appearance and function of all MAS CARNEY Headphone Adapters. If there is any damage, original defect, or other defect in transportation, we will provide free product replacement support. If you have any questions about products or purchases, please do not hesitate to contact us."
+        ],
+        "imgPath": "../img/AUXADAPTER.jpg",
+        "price": "£5"
+      },
+      {
+        "name": "USBCHUB",
+        "desc": [
+          "6 in 1 USB-C Hub Plug and Play: This 6-Port Laptop USB-C Multiport Adapter features 2 USB 3.0 ports, 1 HDMI port, 1 Power Delivery charging port, 1 SD card reader, and 1 TF card reader. Plug and Play, no additional software and drivers required.",
+          "Full HD 4K HDMI to USB C Hub: Mirror or extend the screen of your Type C device with 4K video at 30Hz HDMI output to HDTV, monitor, or projectors.",
+          "100W PD Docking: This hub's USB-C power delivery port provides up to 100W of power, allowing your laptop to charge at high speed while using all the other hub functions. Please make sure the USB-C port of your device supports charging function.",
+          "USB 3.0 Hub: The 2 USB 3.0 ports support transfer rates up to 5Gbps, which saves you a lot of time when transferring data, pictures, or movies from your external drives to your laptop.",
+          "USB C SD / TF Adapter: This USB C dongle is made of durable aluminum alloy and has a small pocket size of 5.1 x 1.1 x 0.44 inches. It is compatible with SD and TF cards with capacities up to 2TB. The portable and heat-resistant design is ideal for use at home, work, or on the go.",
+          "Make sure that the laptop or tablet has a full-function Type C port; otherwise, the HDMI port of the product will not be compatible. If the HDMI port does not extend displays, try changing the cable."
+        ],
+        "imgPath": "../img/USBCHUB.jpg",
+        "price": "£15"
+      },
+      {
+        "name": "SUNTRSI",
+        "desc": [
+          "Compatible Device: The USB adapter for iPad supports standard photo formats, including JPEG and RAW, and SD or HD video formats, including H.264 and MPEG-4. It supports all iPhones with iOS 9.2 and up and iPads with iOS 8.0 or later.",
+          "No APP Needed, Plug and Play: The USB camera adapter does not require an application, and there is no need to remove the camera's memory card. Using the iPhone to USB adapter, you can copy beautiful scenery and cute people photos and videos to iPhone or iPad. This is an excellent choice for quickly copying photos or videos from the camera.",
+          "With iOS Charging Port: This USB adapter adds a charging port, allowing you to charge your device while viewing photos or videos. You don't have to worry about the power shortage of your phone anymore. What's more, this USB to adapter for iPhone can also allow you to share battery power with your friends and help them in urgent situations.",
+          "Excellent Office Performance: Light and durable, with a short cable for better performance. With the iPad to USB adapter, you can directly plug in a PC keyboard or mouse into the iPad, improving your typing speed and productivity.",
+          "Do The Best: Using the iPhone to USB adapter will bring you more convenience."
+        ],
+        "imgPath": "../img/SUNTRSI.jpg",
+        "price": "£15"
+      },
+      {
+        "name": "AUKIVITE",
+        "desc": [
+          "3 in 1 Multifunctional Design: This is a lightweight 3 in 1 Bluetooth selfie stick. It can be used in two ways - you can hold it in your hand or open the tripod and place it on the table or floor to take pictures, allowing you to easily choose different angles. It comes with a Bluetooth remote control, eliminating the need to ask others to take photos.",
+          "Sensitive Bluetooth Remote Control: The selfie stick comes with a pocket-sized detachable Bluetooth remote control. With a remote control range of up to 10 meters, you can control selfies remotely without bothering others or needing to download additional apps. It makes taking photos simpler and more convenient.",
+          "Super Compatibility: The phone holder of the selfie stick is compatible with most smartphones. It supports Bluetooth version 4.0 and is compatible with iPhone 14/14 Pro Max/13/12/11/Pro Max/XR/XS/X/8/7, Samsung Galaxy S23/S22/S10/S9/S8, and GoPro.",
+          "Adjustable Angle: The phone mount can be rotated 360 degrees, and the neck of the pole can be rotated 230 degrees, allowing you to adjust the selfie stick to the desired angle for your photos. You can choose between horizontal or vertical shooting modes for the best angle.",
+          "Retractable and Foldable: The tripod selfie stick is compact and foldable, measuring 7.08 inches (18cm) in length when folded and weighing approximately 115 grams. Its compact design makes it easy to carry on the go, perfect for capturing photos or recording videos during your travels or work."
+        ],
+        "imgPath": "../img/AUKIVITE.jpg",
+        "price": "£15"
       }
+      
 ]
