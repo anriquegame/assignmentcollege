@@ -52,11 +52,11 @@ var data = [
         "name": "GEOBOOK",
         "fullName": "GeoBook 2E 12.5-inch Laptop Windows 10 Intel Celeron 4GB RAM AC Wi-Fi 64GB eMMC",
         "desc": [
-          "Slim and lightweight 12.5-inch laptop that brings portability to your workspace.",
-          "Pre-loaded with Windows 10 Pro offering enhanced productivity, security and privacy features.",
-          "Powered by an Intel Celeron processor, 4GB RAM and 64GB eMMC storage",
-          "Remote ready with a 2MP webcam, high quality dual microphones and dual built-in speakers.",
-          "Connectivity includes USB-C, 2x USB 3.0, Mini-HDMI, 3.5mm and MicroSD (up to 64GB) slot."
+            "Slim and lightweight 12.5-inch laptop that brings portability to your workspace.",
+            "Pre-loaded with Windows 10 Pro offering enhanced productivity, security and privacy features.",
+            "Powered by an Intel Celeron processor, 4GB RAM and 64GB eMMC storage",
+            "Remote ready with a 2MP webcam, high quality dual microphones and dual built-in speakers.",
+            "Connectivity includes USB-C, 2x USB 3.0, Mini-HDMI, 3.5mm and MicroSD (up to 64GB) slot."
         ],
         "imgPath": "../img/GEOBOOK.jpg",
         "price": "£100.00"
@@ -586,7 +586,7 @@ var data = [
           "Over the Ear: Enhanced physical noise reduction by seamless over-ear pads, super comfortable wearing experience by breathable well-made materials. What’s more, Exclusive Designs of Air Pressure Balance by Srhythm. To reduce sound wave pressure of active noise reduction, to feel much more comfortable to wear than all other brands."
         ],
         "imgPath": "../img/SRHYTHM.jpg",
-        "price": "£50"
+        "price": "£50.00"
       },
       {
         "name": "WEBCAM",
@@ -599,7 +599,7 @@ var data = [
           "Easy Plug and Play, Excellent Compatibility: No additional adapters or drivers required. The USB 2.0 plug and play gets you set up and installed on your laptop, desktop, or TV within seconds. You can use the webcam in most popular conferencing APPs, such as Skype, Zoom, Microsoft Teams, Facebook, Twitch; supports almost all operating systems, including Windows XP/7/8/10/11 and above, Mac OS 10.6 and above, Android V5.0 and higher, and Chrome OS 29.0.1547 or later."
         ],
         "imgPath": "../img/WEBCAM.jpg",
-        "price": "£40"
+        "price": "£40.00"
       },
       {
         "name": "WIRELESSMOUSE",
@@ -612,7 +612,7 @@ var data = [
           "Energy Saving Mobile Mouse: LEADSAiL mobile mouse keeps going with months battery life of power on a single AA battery (Not included in the package). Automatic sleep mode and an On/Off switch save power, while an indicator light eliminates surprises. (Battery life may vary based on use and computing conditions.)"
         ],
         "imgPath": "../img/WIRELESSMOUSE.jpg",
-        "price": "£10"
+        "price": "£10.00"
       },
       {
         "name": "AUXADAPTER",
@@ -625,7 +625,7 @@ var data = [
           "Reliable Service: Standard Amazon after-sales service is provided. We have checked the appearance and function of all MAS CARNEY Headphone Adapters. If there is any damage, original defect, or other defect in transportation, we will provide free product replacement support. If you have any questions about products or purchases, please do not hesitate to contact us."
         ],
         "imgPath": "../img/AUXADAPTER.jpg",
-        "price": "£5"
+        "price": "£5.00"
       },
       {
         "name": "USBCHUB",
@@ -639,7 +639,7 @@ var data = [
           "Make sure that the laptop or tablet has a full-function Type C port; otherwise, the HDMI port of the product will not be compatible. If the HDMI port does not extend displays, try changing the cable."
         ],
         "imgPath": "../img/USBCHUB.jpg",
-        "price": "£15"
+        "price": "£15.00"
       },
       {
         "name": "SUNTRSI",
@@ -652,7 +652,7 @@ var data = [
           "Do The Best: Using the iPhone to USB adapter will bring you more convenience."
         ],
         "imgPath": "../img/SUNTRSI.jpg",
-        "price": "£15"
+        "price": "£15.00"
       },
       {
         "name": "AUKIVITE",
@@ -665,7 +665,7 @@ var data = [
           "Retractable and Foldable: The tripod selfie stick is compact and foldable, measuring 7.08 inches (18cm) in length when folded and weighing approximately 115 grams. Its compact design makes it easy to carry on the go, perfect for capturing photos or recording videos during your travels or work."
         ],
         "imgPath": "../img/AUKIVITE.jpg",
-        "price": "£15"
+        "price": "£15.00"
       },
       {
         "name": "LUMSBURRY",
@@ -678,7 +678,7 @@ var data = [
           "Plug-and-Play User-Friendly: It comes with a 1.45m/57-inch USB cable and requires no driver installation. Compatible with Windows 10/8/7/Vista/XP and Mac OS."
         ],
         "imgPath": "../img/LUMSBURRY.jpg",
-        "price": "£15"
+        "price": "£15.00"
       },      
       {
         "name": "ASIDE",
@@ -691,7 +691,7 @@ var data = [
           "ERGONOMIC DESIGN: Designed with ergonomics in mind, the keyboard provides a comfortable typing experience and helps reduce hand fatigue, making it suitable for long work sessions and gaming."
         ],
         "imgPath": "../img/ASIDE.jpg",
-        "price": "£15"
+        "price": "£15.00"
       }
       
       

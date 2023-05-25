@@ -8,6 +8,57 @@ function openProduct(id,where){
         window.open(productURL, "_self");
     }
 }
+function buyButton() {
+    var queryString = window.location.search;
+    var params = new URLSearchParams(queryString);
+    var name = params.get('id');
+    var listJSON = localStorage.getItem("buyitem");
+    var listbuy;
+  
+    try {
+      listbuy = JSON.parse(listJSON);
+    } catch (error) {
+      listbuy = [];
+    }
+  
+    if (Array.isArray(listbuy)) {
+      console.log(listbuy);
+      listbuy.push(name);
+    } else {
+      listbuy = [name];
+    }
+  
+    console.log(listbuy);
+  
+    var updatedListJSON = JSON.stringify(listbuy);
+    localStorage.setItem("buyitem", updatedListJSON);
+}
+
+function fillBasket(){
+    var listJSON = localStorage.getItem("buyitem");
+    var listbuy;
+    var container = document.getElementById("productBasket");
+    try {
+      listbuy = JSON.parse(listJSON);
+    } catch (error) {
+      listbuy = [];
+    }
+    listbuy.forEach(function(item) {
+        var arrayProduct = data.find(function(obj) {
+            return obj.name === item;
+        });
+        var imagem = document.createElement("img");
+        imagem.src = arrayProduct.imgPath;
+        container.appendChild(imagem);
+    });
+
+}
+function clearList(){
+    var listbuy = [];
+    var updatedListJSON = JSON.stringify(listbuy);
+    localStorage.setItem("buyitem", updatedListJSON);
+}
+  
     
 function changeInfo(){
     var queryString = window.location.search;
