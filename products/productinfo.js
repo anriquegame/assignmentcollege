@@ -629,6 +629,7 @@ var data = [
       },
       {
         "name": "USBCHUB",
+        "fullName": "USB C Hub, USB C Adapter MacBook Pro/Air Ipad Pro Adapter, 6 in 1 with 4K HDMI Output, Compatible for Laptop, Surface Pro 8 and Other Type C Devices (PD 100W USB 3.0 TF Card Reader)",
         "desc": [
           "6 in 1 USB-C Hub Plug and Play: This 6-Port Laptop USB-C Multiport Adapter features 2 USB 3.0 ports, 1 HDMI port, 1 Power Delivery charging port, 1 SD card reader, and 1 TF card reader. Plug and Play, no additional software and drivers required.",
           "Full HD 4K HDMI to USB C Hub: Mirror or extend the screen of your Type C device with 4K video at 30Hz HDMI output to HDTV, monitor, or projectors.",
@@ -642,6 +643,7 @@ var data = [
       },
       {
         "name": "SUNTRSI",
+        "fullName": "SUNTRSI USB OTG Adapter for i-Phone i-Pad, USB Camera Adapter with Charging Port, i-Pad to USB 3.0 Adapter, Plug and Play, Support Card Reader, USB Flash Drive, Keyboard, Game Controller, Mouse",
         "desc": [
           "Compatible Device: The USB adapter for iPad supports standard photo formats, including JPEG and RAW, and SD or HD video formats, including H.264 and MPEG-4. It supports all iPhones with iOS 9.2 and up and iPads with iOS 8.0 or later.",
           "No APP Needed, Plug and Play: The USB camera adapter does not require an application, and there is no need to remove the camera's memory card. Using the iPhone to USB adapter, you can copy beautiful scenery and cute people photos and videos to iPhone or iPad. This is an excellent choice for quickly copying photos or videos from the camera.",
@@ -654,6 +656,7 @@ var data = [
       },
       {
         "name": "AUKIVITE",
+        "fullName": "Aukvite Selfie Stick Tripod, 3 in 1 Extendable Bluetooth 360° Selfie Stick Tripod for iPhone 14/14 Pro Max/iPhone 13/12/11/Pro Max/Pro/XR/XS/X/8/7, Samsung S23/S22/S10/S9/S8, Go Pro",
         "desc": [
           "3 in 1 Multifunctional Design: This is a lightweight 3 in 1 Bluetooth selfie stick. It can be used in two ways - you can hold it in your hand or open the tripod and place it on the table or floor to take pictures, allowing you to easily choose different angles. It comes with a Bluetooth remote control, eliminating the need to ask others to take photos.",
           "Sensitive Bluetooth Remote Control: The selfie stick comes with a pocket-sized detachable Bluetooth remote control. With a remote control range of up to 10 meters, you can control selfies remotely without bothering others or needing to download additional apps. It makes taking photos simpler and more convenient.",
@@ -663,6 +666,33 @@ var data = [
         ],
         "imgPath": "../img/AUKIVITE.jpg",
         "price": "£15"
+      },
+      {
+        "name": "LUMSBURRY",
+        "fullName": "Lumsburry Rainbow LED Backlit 88 Keys Gaming Keyboard (UK Layout)",
+        "desc": [
+          "UK Layout, 88-key Compact Keyboard: This LED backlit keyboard has a compact design, taking up less space on your desk and making it easy to pack and transport.",
+          "High Quality and Durable: The keys are specially designed with laser-etched and grip-coated key caps for enhanced durability and tactile feedback.",
+          "Rainbow LED Backlit: The LED backlighting makes it easier to type in the dark, with adjustable brightness and light modes that are not offensive to the eyes.",
+          "12 Multimedia Shortcut Keys: The keyboard features 12 shortcut keys (F1-F12) that can improve your working efficiency and allow you to control the computer more quickly.",
+          "Plug-and-Play User-Friendly: It comes with a 1.45m/57-inch USB cable and requires no driver installation. Compatible with Windows 10/8/7/Vista/XP and Mac OS."
+        ],
+        "imgPath": "../img/LUMSBURRY.jpg",
+        "price": "£15"
+      },      
+      {
+        "name": "ASIDE",
+        "fullName": "ASIDE USB Wired Mini Keyboard",
+        "desc": [
+          "STURDY & DURABLE: Made of high-quality ABS material, the text is wear-resistant and not easy to fade. The keyboard is non-slip and splash-proof, ensuring durability and longevity.",
+          "WIDE APPLICATIONS: This ultra-thin mini USB keyboard is suitable for PC laptops. Its small and lightweight design makes it convenient to carry on the go.",
+          "PLUG AND PLAY: The keyboard is easy to operate, simply plug in the USB connector and start using it. No additional drivers or software installation is required.",
+          "BUSINESS OFFICE KEYBOARD: The keyboard features a simple and easy-to-use layout, making it suitable for business and office use. You can enjoy a comfortable typing experience from day one.",
+          "ERGONOMIC DESIGN: Designed with ergonomics in mind, the keyboard provides a comfortable typing experience and helps reduce hand fatigue, making it suitable for long work sessions and gaming."
+        ],
+        "imgPath": "../img/ASIDE.jpg",
+        "price": "£15"
       }
+      
       
 ]
