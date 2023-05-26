@@ -208,7 +208,8 @@ footer p{
 .listcontent ul li img:hover{
     cursor: pointer;
 }
-/* exeptions */
+
+/* img size */
 #laptopcss ul li img{
     width: 450px;
     height: 300px;
@@ -217,9 +218,20 @@ footer p{
     width: 200px;
     height: 300px;
 }
+#tvcss ul li img{
+    width: 500px;
+    height: 300px;
+}
+/* exeptions */
 #BLACKVIEW ul li,#\35G ul li{
     font-size: 9px;
 }
 #OSCAL ul li{
     font-size: 8px; 
+}
+#RCATV ul li{
+    font-size: 9px; 
+}
+#TCLTV ul li,#SYLVOXTV ul li{
+    font-size: 10px;
 }
