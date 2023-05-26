@@ -564,7 +564,7 @@ var data = [
       },
       {
         "name": "MASCARNEY",
-        "fullName": "【2 Pack】 TI3+TH4 Wired USB Type C Headphones, In Ear USB C Earphones with Microphone for Samsung S20, Huawei P30 P40, OPPO, Honor, Google Pixel and Other Smartphones with Type-C Interface",
+        "fullName": "【2 Pack】 TI3+TH4 Wired USB Type C Headphones, In Ear USB C Earphones with Microphone for Samsung S20, Huawei P30 P40, OPPO, Honor, Google Pixel and Other Smartphones with Type-C",
         "desc": [
           "【Value for Money】 2 pairs of MAS CARNEY earphones packed, TI3 a wired earphone in black color and TH4 a wired earphone in white color. TI3 with S/M/L size ear tips.",
           "【Universal Compatibility】The USB C earphones are compatible with Samsung A53/S22/S21/S20/S20 FE/Z-Flip/Fold 3/2/Note 20/10+, Huawei P40 Pro/P40/P30 Pro/P30/Mate30 Pro/ Mate20 Pro, OnePlus 10 9 Pro/9/Nord/8T/8/7T/7/6T, Google Pixel 6 6 Pro 5 4 3 2 XL, iPad Air 2020 2022 / iPad Pro 2021/2020/2018/ and other Type-C audio devices. ★ Note: iPad Pro, and other models only support listening to music, not calling.",
