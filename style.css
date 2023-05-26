@@ -128,6 +128,15 @@ footer p{
     font-family: "Arial", sans-serif;
     padding-left: 40px;
 }
+#productContent a{
+    padding: 3px;
+    border: 2px solid #999999;
+    border-radius: 5px;
+}
+#productContent a:hover{
+    cursor: pointer;
+    background-color: #a7d3ff;
+}
 #nameP{
     margin-top: 75px;
 }
@@ -140,7 +149,7 @@ footer p{
     font-family: "Arial", sans-serif;
     margin-top: 50px;
     flex: 1;
-    padding-bottom: 60px; /* Altura do footer */
+    padding-bottom: 60px;
 }
 #listcontent > ul{
     padding-left: 100px;
