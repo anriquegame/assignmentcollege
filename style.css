@@ -70,6 +70,7 @@ header a{
 }
 #content ul li:hover{
     transform: scale(1.1);
+    cursor: pointer;
 }
 #content ul:not(#phones):not(#tvs):not(#accessories) li img {
     height: 130px;
@@ -141,22 +142,44 @@ footer p{
     flex: 1;
     padding-bottom: 60px; /* Altura do footer */
 }
+#listcontent > ul{
+    padding-left: 100px;
+}
 #listcontent ul > li {
     box-sizing: border-box;
-    border: 1px solid #d5d5d5;
-    border-radius: 5px;
+    border: 3px solid #d5d5d5;
+    border-radius: 7px;
     display: inline-block;
     list-style-type: none;
-    margin: 10px;
+    margin: 20px;
 }
 
 .inforight {
     box-sizing: border-box;
-    font-size: 10px;
+    font-size: 12.5px;
     width: 80vw;
+}
+#listcontent ul > li:hover{
+    transform: scale(1.1);
 }
 .inforight * {
     margin: 5px;
+}
+.inforight h2:hover {
+    cursor: pointer;
+    color: dodgerblue;
+}
+.inforight h3 {
+    font-size: 35px;
+    margin: 5px;
+}
+.inforight h3:hover {
+    cursor: pointer;
+}
+#listcontent h1{
+    font-size: 40px;
+    margin-top: 35px;
+    text-align: center;
 }
 #listcontent ul ul li {
     border: 0px solid transparent;
@@ -164,9 +187,16 @@ footer p{
     list-style-type: disc;
     margin: 5px;
 }
+#listcontent ul ul li:hover{
+    transform: scale(1);
+}
 #listcontent ul li img{
+    padding: 5px;
     float: left;
     margin-right: 10px;
     width: 500px;
     height: 300px;
+}
+#listcontent ul li img:hover{
+    cursor: pointer;
 }

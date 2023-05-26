@@ -84,6 +84,12 @@ function fillList() {
         var element = document.getElementById(obj.name);
         if(element){
             element.querySelector("h2").textContent = obj.fullName;
+            element.querySelector("h2").addEventListener('click', function() {
+                openProduct(obj.name,2)
+            })
+            element.querySelector("h3").addEventListener('click', function() {
+                openProduct(obj.name,2)
+            })
             element.querySelector("h3").textContent = obj.price;
             element.querySelector("img").src = obj.imgPath;
 
