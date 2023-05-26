@@ -132,6 +132,7 @@ footer p{
     padding: 3px;
     border: 2px solid #999999;
     border-radius: 5px;
+    margin-bottom: 100px;
 }
 #productContent a:hover{
     cursor: pointer;
@@ -145,16 +146,16 @@ footer p{
 }
 
 /* list products */
-#listcontent{
+.listcontent{
     font-family: "Arial", sans-serif;
     margin-top: 50px;
     flex: 1;
     padding-bottom: 60px;
 }
-#listcontent > ul{
+.listcontent > ul{
     padding-left: 100px;
 }
-#listcontent ul > li {
+.listcontent ul > li {
     box-sizing: border-box;
     border: 3px solid #d5d5d5;
     border-radius: 7px;
@@ -165,10 +166,10 @@ footer p{
 
 .inforight {
     box-sizing: border-box;
-    font-size: 12.5px;
+    font-size: 12px; /* font size of general */
     width: 80vw;
 }
-#listcontent ul > li:hover{
+.listcontent ul > li:hover{
     transform: scale(1.1);
 }
 .inforight * {
@@ -185,27 +186,40 @@ footer p{
 .inforight h3:hover {
     cursor: pointer;
 }
-#listcontent h1{
+.listcontent h1{
     font-size: 40px;
     margin-top: 35px;
     text-align: center;
 }
-#listcontent ul ul li {
+.listcontent ul ul li {
     border: 0px solid transparent;
     display: list-item;
     list-style-type: disc;
     margin: 5px;
 }
-#listcontent ul ul li:hover{
+.listcontent ul ul li:hover{
     transform: scale(1);
 }
-#listcontent ul li img{
+.listcontent ul li img{
     padding: 5px;
     float: left;
     margin-right: 10px;
-    width: 500px;
+}
+.listcontent ul li img:hover{
+    cursor: pointer;
+}
+/* exeptions */
+#laptopcss ul li img{
+    width: 450px;
     height: 300px;
 }
-#listcontent ul li img:hover{
-    cursor: pointer;
+#mobilecss ul li img{
+    width: 200px;
+    height: 300px;
+}
+#BLACKVIEW ul li,#\35G ul li{
+    font-size: 9px;
+}
+#OSCAL ul li{
+    font-size: 8px; 
 }
