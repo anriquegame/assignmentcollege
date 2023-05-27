@@ -32,12 +32,37 @@ function buyButton() {
   
     var updatedListJSON = JSON.stringify(listbuy);
     localStorage.setItem("buyitem", updatedListJSON);
+
+    // popup
+    var popup = document.createElement("div");
+    popup.className = "popup";
+    popup.id = "popupid"
+    
+    // add close button to popup
+    popup.innerHTML = '<button class="closeButton" onclick="closepopup()">X</button>';
+    popup.innerHTML += "<h4>product added to the basket</h4>";
+
+    // create overlay
+    var overlay = document.createElement("div");
+    overlay.className = "overlay";
+    
+    // add popup to container
+    document.getElementById("popupContainer").appendChild(overlay);
+    document.getElementById("popupContainer").appendChild(popup);
+}
+function closepopup() {
+    // var closeButton = document.querySelector('.closeButton');
+    var popupContainer = document.getElementById("popupContainer");
+    
+    popupContainer.removeChild(popupContainer.firstChild);
+    popupContainer.removeChild(popupContainer.firstChild);
 }
 
 function fillBasket(){
     var listJSON = localStorage.getItem("buyitem");
     var listbuy;
     var container = document.getElementById("productBasket");
+    var total = 0.00;
     try {
       listbuy = JSON.parse(listJSON);
     } catch (error) {
@@ -47,10 +72,14 @@ function fillBasket(){
         var arrayProduct = data.find(function(obj) {
             return obj.name === item;
         });
+        total += parseFloat(arrayProduct.price.replace(',', '').slice(1));
+        console.log(total)
         var imagem = document.createElement("img");
         imagem.src = arrayProduct.imgPath;
         container.appendChild(imagem);
     });
+    var formattedTotal = '£' + total.toLocaleString('en-GB', { minimumFractionDigits: 2, maximumFractionDigits: 2 });
+    document.getElementById("totalprice").textContent = formattedTotal;
 
 }
 function clearList(){

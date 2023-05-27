@@ -145,6 +145,48 @@ footer p{
 #descP{
     padding: 0;
 }
+.popup {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 200px;
+    height: 50px;
+    background-color: #fff;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 10px;
+    z-index: 6;
+    font-size: 25px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.popup h4{
+    margin: 0;
+    text-align: center;
+}
+.closeButton {
+    position: absolute;
+    top: 3px;
+    right: 3px;
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+    color: red;
+    padding: 0px 3.153px;
+}
+.overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5); /* overlay color */
+    z-index: 5;
+    pointer-events: auto; /* enable overlay click events */
+  }
+  
 
 /* list products */
 .listcontent{

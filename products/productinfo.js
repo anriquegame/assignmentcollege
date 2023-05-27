@@ -427,7 +427,7 @@ var data = [
           "Enhance your gaming experience with built-in Game Optimizer and ALLM"
         ],
         "imgPath": "../img/LGTV.jpg",
-        "price": "£360.79"
+        "price": "£360.00"
       },
       {
         "name": "TOSHIBATV",
@@ -542,8 +542,8 @@ var data = [
         "desc": [
           "AUTO ON & CONNECT: The Go Air Pop True Wireless Earbuds turn on and connect to each other automatically. Just take them out of their USB charging case for seamless, hassle-free connection. Then just connect to your phone. Utilising Bluetooth 5.1, this is our fastest hands-free connection yet.",
           "SMALLER FIT EAR PODS: Smaller than a credit card, the Go Air Pop case fits in your pocket and the TWS Bluetooth earbuds are our smallest yet; 15% smaller and 40% lighter with the compact case than the Go Air buds. Ideal for the gym, sport or to carry while running. Try the three tip sizes to get a snug in-ear headphones fit and create a perfect seal for crystal clear sound.",
-          "CUSTOM EQ3 SOUND: Bluetooth earphones with a microphone featuring 8mm neodymium drivers, GO Air Pop provides crystal clear sound. Tune the Go Air Pop sound to your personal preferences with JLab’s Signature, Balanced, and Bass Boost EQ modes – without the need for an app. You control your sound.",
-          "BATTERY LIFE: Listen for the long battery life with your wireless earphones; stay for the comfort. GO Air Pop features 8 hours of playtime in each earbud and 24+ extra hours from the charging case. That’s 32+ hours of playtime with your Bluetooth headphones.",
+          "CUSTOM EQ3 SOUND: Bluetooth earphones with a microphone featuring 8mm neodymium drivers, GO Air Pop provides crystal clear sound. Tune the Go Air Pop sound to your personal preferences with JLab`s Signature, Balanced, and Bass Boost EQ modes - without the need for an app. You control your sound.",
+          "BATTERY LIFE: Listen for the long battery life with your wireless earphones; stay for the comfort. GO Air Pop features 8 hours of playtime in each earbud and 24+ extra hours from the charging case. That`s 32+ hours of playtime with your Bluetooth headphones.",
           "DUAL CONNECT & CONTROL IT ALL: Use either earbud independently or use both and experience a seamless connection. Both earbuds auto-connect to your device, so no need to worry about switching or missing a connection. A built-in MEMS microphone in each bud ensures clear calls. Conveniently control all your music with a push or two on the outside of the earpiece to activate Siri, Google Assistant, and other voice assistants or take phone calls and keep GOing on the move."
         ],
         "imgPath": "../img/AIRPOP.jpg",
@@ -555,9 +555,9 @@ var data = [
         "desc": [
           "FLEXIBLE CONNECTIONS: The JLab Epic Mouse is compatible with three simultaneous device connections. Connect this computer mouse via Bluetooth 5.2 or the USB Wireless Dongle (2.4 GHz) to nearly any type of device. Easily switch between saved devices like your computer, tablet, phone, etc. with a click of a button.",
           "COMFORT-IN-HAND MOUSE DESIGN: As you could be using it for almost eight hours a day, it's important that it's comfortable and quiet. This Bluetooth and wireless mouse has been designed for maximum comfort and functionality. We also design all of our mice with silent buttons. Some call it ergonomic, we just call it designed perfectly for you.",
-          "OLED DISPLAY: Quick, real-time access to battery life, DPI settings, and device connection options. Ability to access hardware custom controls with no app required. You’re a wizard of efficiency, and you’ve got the ergonomic mouse to prove it.",
-          "RECHARGEABLE BATTERY: Who wants to go digging around looking for AAA batteries? We sure don’t. The Epic Wireless Bluetooth Mouse has a convenient rechargeable battery that powers you for 4+ months* so you don’t ever have to skip a beat. No interruptions, less waste.",
-          "CUSTOM USER PROFILES: Through the JLab Work App, you can program specific buttons to fit how you like to use your favorite applications. Paste your most used formulas or paste the same text with a simple click of a button. With up to three unique profiles, you can easily switch between them depending on what you’re doing."
+          "OLED DISPLAY: Quick, real-time access to battery life, DPI settings, and device connection options. Ability to access hardware custom controls with no app required. You`re a wizard of efficiency, and you`ve got the ergonomic mouse to prove it.",
+          "RECHARGEABLE BATTERY: Who wants to go digging around looking for AAA batteries? We sure don`t. The Epic Wireless Bluetooth Mouse has a convenient rechargeable battery that powers you for 4+ months* so you don`t ever have to skip a beat. No interruptions, less waste.",
+          "CUSTOM USER PROFILES: Through the JLab Work App, you can program specific buttons to fit how you like to use your favorite applications. Paste your most used formulas or paste the same text with a simple click of a button. With up to three unique profiles, you can easily switch between them depending on what you`re doing."
         ],
         "imgPath": "../img/EPICMOUSE.jpg",
         "price": "£60.00"
@@ -582,8 +582,8 @@ var data = [
           "Active Noise Cancelling: By Srhythm dynamic hybrid electronic noise reduction technology, quelling 95% ambient noise effectively (Kindly note that human sound cannot be canceled totally and not 100% sound canceling). Get rid of noise when you are in the bus, subway, airplane, etc.",
           "Multi-modes Switchover: ANC mode, Transparency mode, and Normal mode only by pressing the one ANC button to switch. The ingenious mics will pick up and enlarge the human voice for hearing easily when you enter the Transparency Mode, so that you could hear much more clearly and communicate sufficiently without taking down your headset.",
           "HD Sound Quality: Perfect curve of audio frequency to keep a great balance of sound, quiet, and comfort. Sound enjoyment by calling, learning, listening to audiobooks and music, etc. to find the rhythm of your soul.",
-          "Ultra-long Bluetooth Connection and Battery Life: 30-50 feet Bluetooth operation distance without obstacles. Built-in 750mAh big battery to support 30 hours’ playtime. Quick Charge 10 minutes (via included USB-C cable) to offer 3 hours for some urgency, or plug in the included audio cable when the battery is low to listen to the wired version as a backup. Exclusive Srhythm Over-voltage protection technology ensures safety during headset charging.",
-          "Over the Ear: Enhanced physical noise reduction by seamless over-ear pads, super comfortable wearing experience by breathable well-made materials. What’s more, Exclusive Designs of Air Pressure Balance by Srhythm. To reduce sound wave pressure of active noise reduction, to feel much more comfortable to wear than all other brands."
+          "Ultra-long Bluetooth Connection and Battery Life: 30-50 feet Bluetooth operation distance without obstacles. Built-in 750mAh big battery to support 30 hours` playtime. Quick Charge 10 minutes (via included USB-C cable) to offer 3 hours for some urgency, or plug in the included audio cable when the battery is low to listen to the wired version as a backup. Exclusive Srhythm Over-voltage protection technology ensures safety during headset charging.",
+          "Over the Ear: Enhanced physical noise reduction by seamless over-ear pads, super comfortable wearing experience by breathable well-made materials. What`s more, Exclusive Designs of Air Pressure Balance by Srhythm. To reduce sound wave pressure of active noise reduction, to feel much more comfortable to wear than all other brands."
         ],
         "imgPath": "../img/SRHYTHM.jpg",
         "price": "£50.00"
