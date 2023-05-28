@@ -4,49 +4,56 @@ var data = [
         "fullName":"ASUS Vivobook 15 X515JA 15.6 Full HD Laptop (Intel Core i3, 8GB RAM, 256GB PCIe SSD, Windows 11), Silver (X515JA-EJ2133W)",
         "desc":["15.6 Full HD screen","Powered by Intel's Core i3 dual-core processor","8GB RAM paired with 256GB PCIe SSD","UK layout keyboard","Microsoft Windows 11 Home operating system"],
         "imgPath":"../img/ASUS.png",
-        "price":"£300.00"
+        "price":"£300.00",
+        "type":"laptop"
     },
     {
         "name":"LG",
         "fullName":"LG gram Style 2023 16Z90RS 16 inch ultra-lightweight OLED laptop, intel i7-1360P, 32GB RAM, 2TB SSD, Smart amp speakers & Dolby ATMOS, Windows 11 (Holographic White)",
         "desc":["[Beauty in Strength] The LG gram Style has beautiful yet durable Corning Gorilla Glass cover that changes colour in the light, inspired by the shimmering Auora skies","[OLED Display] Professional OLED Display that provides 16 inch Large screen, WQXGA(3200x2000) high resolution and DCI-P3 100%, HDR True Black 500 Low-reflection display which provides a smooth and stutter-free experience due to 0.2ms response time & 120Hz high refresh rate that can boost productivity","[Intel Evo] More powerful and faster performance with the Intel Evo Platform Powered by 13th Gen Intel Core Processors and Thunderbolt 4","[All-Day Battery life] 80Wh battery that's powered to last longer on a single charge","[Intel Unison] Do more with ease. This LG gram laptop is equipped with Intel Unison, which provides a seamless connectivity experience with your mobile regardless of Operating system such as Android, iOS, or Windows","[Dolby ATMOS] Dynamic Dolby Atmos audio and the LG gram's Smart Amp speakers deliver even crisper and clearer sound. So what's on screen not only looks stunning but is truly cinematic"],
         "imgPath":"../img/LG.jpg",
-        "price":"£2,650.00"
+        "price":"£2,650.00",
+        "type":"laptop"
     },
     {
         "name":"LENOVO",
         "fullName":"Lenovo IdeaPad 3i 15 Inch Full HD Laptop (Intel Core i3-1115G4 Processor, 4GB RAM, 128GB Storage, Windows 10 Home S Mode) - Abyss Blue",
         "desc":["YOUR DAILY COMPUTING COMPANION - Thin, light in a stylish blue body, powered by a reliable Intel processor","GREAT COMMUNICATIONS - Built in webcam with privacy shutter and stable connection through built in Intel WiFi 6","FOR WORK AND PLAY - 1 year subscription to Microsoft Office 365 for home and study - or run games like Roblox and Minecraft (not included)","BRIGHT DISPLAY - Full HD (1080 x 1920) anti-glare display with narrow bezels","EXPANDABLE - Connect to an external monitor, mice/keyboards and more with built-in headphone jack, USB Type-A and Type-C ports, HDMI port, and Bluetooth"],
         "imgPath":"../img/LENOVO.jpg",
-        "price":"£300.00"
+        "price":"£300.00",
+        "type":"laptop"
     },
     {
         "name":"DELL",
         "fullName":"Dell Inspiron Laptop, 15.6' HD Display, AMD Ryzen 5 3450U Processor, 32GB RAM, 1TB SSD, Webcam, HDMI, SD Card Reader, Wi-Fi, Windows 11 Home, Carbon Black",
         "desc":["【High Speed RAM And Enormous Space】32GB high-bandwidth DDR4 RAM to smoothly run multiple applications and browser tabs all at once; 1TB PCIe Solid State Drive for ample storage space","【Processor】AMD Ryzen 5 3450U Processor (4 Cores, 8 Threads, 4MB L3 Cache, Base Clock at 2.1GHz, Up to 3.5GHz at Max. Boost Clock), AMD Radeon Graphics","【Display】15.6', HD 1366x768, 60Hz, Non-Touch, Anti-Glare, LED-Backlit, Narrow Border","【Tech Specs】2 x USB 3.2 Gen 1, 1 x USB 2.0, 1 x Audio Jack, 1 x HDMI 1.4, 1 x SD Card Reader; 802.11ac 1x1 Wi-Fi and Bluetooth","【Operating System】Windows 11 Home - Beautiful, more consistent new design, Great window layout options, Better multi-monitor functionality, Improved performance features, New videogame selection and capabilities, Compatible with Android Apps"],
         "imgPath":"../img/DELL.jpg",
-        "price":"£800.00"
+        "price":"£800.00",
+        "type":"laptop"
     },
     {
         "name":"HP",
         "fullName":"HP 15.6' Full HD Laptop 15s-eq1048na, AMD Ryzen 7, 16GB RAM, 512GB SSD, Windows 11 - Natural Silver",
         "desc":["Power through your day. Stay connected to what matters most with long-lasting battery life and a thin micro-edge bezel design. Built to keep you productive and entertained from anywhere, the HP 39.6 cm (15.6') Laptop features reliable performance and an expansive display, so you can stream, surf and speed through tasks","View more, carry less. Thin, light, and designed to travel. See more of your photos, videos and projects on a 6.5 mm micro-edge bezel display","Reliable performance. Tackle your busiest days with the performance of a reliable processor. Save more of what you love with abundant storage for all your photos, videos and documents","Go longer, faster. Long-lasting battery life and HP Fast Charge technology lets you work, watch, and stay connected all day. Integrated precision touchpad with multitouch support speeds up navigation and productivity"],
         "imgPath":"../img/HP.jpg",
-        "price":"£550.00"
+        "price":"£550.00",
+        "type":"laptop"
     },
     {
         "name":"ACER",
         "fullName":"Acer Aspire 5 A515-57G 15.6 Inch Laptop - (Intel Core i5-1235U, 16GB, 512GB SSD, NVIDIA GeForce MX550, Full HD Display, Windows 11, Iron)",
         "desc":["POWERFUL PERFORMANCE: The combined performance of a 12th Gen Intel Core i5 CPU and 16GB of RAM means you'll breeze through the most demanding of tasks","ENHANCED GRAPHICS: With a dedicated Nvidia GeForce MX550 GPU you can take on more visually-demanding challenges like photo editing","VISIBLY STUNNING: The 15.6 Inch Full HD IPS screen combines incredibly sharp detail, vivid lifelike colours and wide viewing angles for a brilliant visual experience","PREMIUM CHASSIS: The aluminium body features a backlit keyboard and raised hinge design to provide a more comfortable typing position, clearer audio and better cooling","WORK FROM AN YWHERE: The HD webcam with TNR technology and dual microphones with AI noise reduction allow you to video call from anywhere without worrying about being seen or heard clearly"],
         "imgPath":"../img/ACER.jpg",
-        "price":"£600.00"
+        "price":"£600.00",
+        "type":"laptop"
     },
     {
         "name":"ALIENWARE",
         "fullName":"Alienware m15 R7 15.6' QHD 240Hz Gaming Laptop, Intel Core i7-12700H, NVIDIA GeForce RTX 3080 Ti 16GB, 32GB RAM, 1TB SSD, NVIDIA G-SYNC, Windows 11 Home (Dark side of the moon)",
         "desc":["Experience elite performance across your favorite games and applications with 12th Gen Intel Core processors","Graphics designed for maximum performance with NVIDIA GeForce RTX","Gain the edge you need with Alienware Cryo-tech cooling technology","Experience smooth, fast, and stunning graphics as the developers intended with more contrast and vivid colours that go beyond the traditional high dynamic range (HDR)","Keep your vision sharp and relaxed with ComfortView Plus, an always on built-in low blue light screen that reduces blue light emissions while delivering excellent colour without effecting performance or image quality"],
         "imgPath":"../img/ALIENWARE.jpg",
-        "price":"£2,500.00"
+        "price":"£2,500.00",
+        "type":"laptop"
     },
     {
         "name": "GEOBOOK",
@@ -59,7 +66,8 @@ var data = [
             "Connectivity includes USB-C, 2x USB 3.0, Mini-HDMI, 3.5mm and MicroSD (up to 64GB) slot."
         ],
         "imgPath": "../img/GEOBOOK.jpg",
-        "price": "£100.00"
+        "price": "£100.00",
+        "type":"laptop"
     },
     {
         "name": "SGIN",
@@ -72,7 +80,8 @@ var data = [
           "【Worry-free After-sales Service】We provide 365 days warranty service from the date of purchase, if there is any problem, please contact us, we will reply you within 12 hours to help you solve the problem."
         ],
         "imgPath": "../img/SGIN.jpg",
-        "price": "£200.00"
+        "price": "£200.00",
+        "type":"laptop"
       },
       {
         "name": "JUMPER",
@@ -85,7 +94,8 @@ var data = [
           "【Long Lasting Battery and High-Speed Transmission】 The laptop has a 38Wh large capacity battery, which lasts for 7 to 8 hours of comprehensive usage. Further, with the help of AC dual band WiFi, Bluetooth 4.0, standard USB3.0 and Type-C for easy connection to various peripherals and high-speed wireless transmission. Also, HDMI output for high definition audio, video."
         ],
         "imgPath": "../img/JUMPER.jpg",
-        "price": "£250.00"
+        "price": "£250.00",
+        "type":"laptop"
       },      
       {
         "name": "CHUWI",
@@ -98,7 +108,8 @@ var data = [
           "[Peace of Mind Warranty] CHUWI laptops have passed strict tests, one year warranty, please rest assured to buy. If you have any questions with goods, contact us, we will serve you wholeheartedly."
         ],
         "imgPath": "../img/CHUWI.jpg",
-        "price": "£180.00"
+        "price": "£180.00",
+        "type":"laptop"
       },
       {
         "name": "MSI",
@@ -111,7 +122,8 @@ var data = [
           "Cooler Boost 5"
         ],
         "imgPath": "../img/MSI.jpg",
-        "price": "£1,430.00"
+        "price": "£1,430.00",
+        "type":"laptop"
       },
       {
         "name": "SAMSUNG",
@@ -124,7 +136,8 @@ var data = [
           "More Ports, More possibilities: versatile ports, including the USB Type-C, USB 3.2, SIM card tray, ear jack, and memory card slot, are set to bridge learning and technology in an ever changing world."
         ],
         "imgPath": "../img/SAMSUNG.jpg",
-        "price": "£300.00"
+        "price": "£300.00",
+        "type":"laptop"
       },
       {
         "name": "APPLE",
@@ -139,7 +152,8 @@ var data = [
           "Cinematic mode now in 4K Dolby Vision up to 30 fps"
         ],
         "imgPath": "../img/APPLE.jpg",
-        "price": "£860.00"
+        "price": "£860.00",
+        "type":"phone"
       },
       {
         "name": "OPPO",
@@ -152,7 +166,8 @@ var data = [
           "Connector Type: USB Type C"
         ],
         "imgPath": "../img/OPPO.jpg",
-        "price": "£200.00"
+        "price": "£200.00",
+        "type":"phone"
       },
       {
         "name": "ULEFONE",
@@ -167,7 +182,8 @@ var data = [
           "6.52 inch waterdrop HD+ screen, delivers incomparable artistic shades feeling. 8.95mm 3D slim body, 20:9 Aspect Ratio delivers superior hand feel."
         ],
         "imgPath": "../img/ULEFONE.jpg",
-        "price": "£100.00"
+        "price": "£100.00",
+        "type":"phone"
       },
       {
         "name": "DOOGEE",
@@ -180,7 +196,8 @@ var data = [
           "【AI Dual Camera+ 2 Years Warranty】5MP front camera and 8MP rear AI camera, you can use filters, emojis or other technologies to further edit your photos, and it supports multiple shooting modes such as time-lapse, and professional. It only takes a second to unlock the phone with a face! We will provide 2 years warranty and professional after-sales service for the 4G Dual SIM free mobile phone X97!"
         ],
         "imgPath": "../img/DOOGEE.jpg",
-        "price": "£70.00"
+        "price": "£70.00",
+        "type":"phone"
       },
       {
         "name": "NOKIA",
@@ -194,7 +211,8 @@ var data = [
           "Everything you need to power your business"
         ],
         "imgPath": "../img/NOKIA.jpg",
-        "price": "£160.00"
+        "price": "£160.00",
+        "type":"phone"
       },
       {
         "name": "XIAOMI",
@@ -206,7 +224,8 @@ var data = [
           "Battery: 5000mAh"
         ],
         "imgPath": "../img/XIAOMI.jpg",
-        "price": "£140.00"
+        "price": "£140.00",
+        "type":"phone"
       },
       {
         "name": "FLIP",
@@ -219,7 +238,8 @@ var data = [
           "Custom cover screen - With a customizable 1.9-inch Cover Screen, you get yet another canvas to play with. Change it up as much as you want using your videos, photos or your own AR emoji to personalize the clock face."
         ],
         "imgPath": "../img/FLIP.jpg",
-        "price": "£1,060.00"
+        "price": "£1,060.00",
+        "type":"phone"
       },
       {
         "name": "LNGLST",
@@ -232,7 +252,8 @@ var data = [
           "【2800mah large battery + 3D ultra-thin body design 】 As the cheapest but most durable Android phone, LngLst M10Plus is equipped with a large 2800 Ma battery, which can avoid the embarrassment of low battery power when going out. In addition, this phone also has an ultra-thin 3D body design, which makes it more comfortable to use!"
         ],
         "imgPath": "../img/LNGLST.jpg",
-        "price": "£50.00"
+        "price": "£50.00",
+        "type":"phone"
       },
       {
         "name": "HONOR",
@@ -245,7 +266,8 @@ var data = [
           "【Expandable Storage 】HONOR X6 has 64GB storage and also supports large expandable storage of up to 1TB MicroSD (NOT INCLUDED), download your favorite content at any time, without ever having to delete your beautiful photos"
         ],
         "imgPath": "../img/HONOR.jpg",
-        "price": "£110.00"
+        "price": "£110.00",
+        "type":"phone"
       },
       {
         "name": "GALAXY",
@@ -258,7 +280,8 @@ var data = [
           "With 64/128GB of internal storage for your photos and videos, plus support for a microSD card up to 1TB, you'll get lots of space to store your precious moments."
         ],
         "imgPath": "../img/GALAXY.jpg",
-        "price": "£170.00"
+        "price": "£170.00",
+        "type":"phone"
       },
       {
         "name": "BLACKVIEW",
@@ -271,7 +294,8 @@ var data = [
           "【Face+Fingerprint Unlock】A52 smart phones lets your unique face be your key to unlock your phone quickly and safely. 2-in-1 power button and fingerprint sensor, just touch the button with your finger to unlock your phone instantly! It only takes 0.1 seconds to unlock! A52 uses smooth external lines to enhance the texture of the cell phone, making it lightweight and advanced. 2 years warranty, please contact us if you have any questions. A52 phones have more surprises waiting for you to discover!"
         ],
         "imgPath": "../img/BLACKVIEW.jpg",
-        "price": "£80.00"
+        "price": "£80.00",
+        "type":"phone"
       },
       {
         "name": "PIXEL",
@@ -286,7 +310,8 @@ var data = [
           "The Pixel 7 display is super sharp, with rich, vivid colours. And it's fast and responsive for smoother gaming, scrolling and moving between apps"
         ],
         "imgPath": "../img/PIXEL.jpg",
-        "price": "£470.00"
+        "price": "£470.00",
+        "type":"phone"
       },
       {
         "name": "OSCAL",
@@ -302,7 +327,8 @@ var data = [
           "【Face/Fingerprint Unlocking & 2 Years Warranty】OSCAL C80 supports 2 in 1side fingerprint power button, easy to reach and unlock in a snap, supports also face, password, and PIN unlocking. With C80, you can also experience the four navigation systems, including GPS, GLONASS, Galileo and Beidou, to provide more accurate positioning in all corners of the planet. OSCAL C80 smartphone offers a 24-month warranty. If you have any questions during use, please contact the seller, we will get back to you within 24 hours."
         ],
         "imgPath": "../img/OSCAL.jpg",
-        "price": "£130.00"
+        "price": "£130.00",
+        "type":"phone"
       },
       {
         "name": "5G",
@@ -317,7 +343,8 @@ var data = [
           "【Glove Mode + Android 11 + More Features】The BL8800 Pro is equipped with a glove mode, allowing you to use your phone while wearing gloves during sports or winter, and supports 4G VoLTE with two slots at the same time. Based on Android 11, Doke OS 3.0 adds more convenient custom system functions to bring you a more personalized experience. More functions: Multi-function NFC, Lanyard hook, GPS & GLONASS & Beidou & Galileo, Air pressure sensor, Liquid cooling system, Underwater mode, etc."
         ],
         "imgPath": "../img/5G.jpg",
-        "price": "£470.00"
+        "price": "£470.00",
+        "type":"phone"
       },
       {
         "name": "UMIDIGI",
@@ -330,7 +357,8 @@ var data = [
           "【Dual SIM and other useful features】The UMIDIGI C1 Max hands-free phone has two card slots, so you can insert two different Nano SIM cards and use them on the same phone. Alternatively, a Nano sim card and a MicroSD card can be inserted. In addition, it is equipped with fingerprint recognition, facial recognition and GPS. You can check real-time information such as altitude, pressure, direction and position from anywhere."
         ],
         "imgPath": "../img/UMIDIGI.jpg",
-        "price": "£120.00"
+        "price": "£120.00",
+        "type":"phone"
       },       
       {
         "name": "SAMSUNGTV",
@@ -343,7 +371,8 @@ var data = [
             "Start Experiencing Samsung TVs - We believe a TV is more than something you watch. It should inspire, amaze, envelop, and immerse you. From quality picture to elegant design, our TVs push the boundaries of what is possible and what a TV can be."
         ],
         "imgPath": "../img/SAMSUNGTV.jpg",
-        "price": "£8,000.00"
+        "price": "£8,000.00",
+        "type":"tv"
     },
     {
         "name": "HISENSETV",
@@ -358,7 +387,8 @@ var data = [
             "Wireless communication technology: Wi-Fi"
         ],
         "imgPath": "../img/HISENSETV.jpg",
-        "price": "£280.00"
+        "price": "£280.00",
+        "type":"tv"
     },
     {
         "name": "FIRETV",
@@ -373,7 +403,8 @@ var data = [
             "Connect all your devices: use the 2 standard HDMI inputs to connect to satellite TV and video game consoles. Use the HDMI ARC to input audio equipment for enhanced sound."
         ],
         "imgPath": "../img/FIRETV.jpg",
-        "price": "£300.00"
+        "price": "£300.00",
+        "type":"tv"
     },
     {
         "name": "XIAOMITV",
@@ -387,7 +418,8 @@ var data = [
             "An Amazon account is required for full use of all functions. Additional costs for subscriptions may apply when using streaming services."
         ],
         "imgPath": "../img/XIAOMITV.jpg",
-        "price": "£1,800.00"
+        "price": "£1,800.00",
+        "type":"tv"
     },
     {
         "name": "RCATV",
@@ -401,7 +433,8 @@ var data = [
           "Various Interfaces: Your RCA TV with multiple ports such as HDMI, USB, VGA, and AV, this TV is perfect for connecting to various devices. It also supports direct connection to laptops, gaming consoles, SKY box, Virgin box, and other devices. With the RCA 32-inch non-smart TV, you can enjoy a truly immersive experience with all your favorite devices."
         ],
         "imgPath": "../img/RCATV.jpg",
-        "price": "£100.00"
+        "price": "£100.00",
+        "type":"tv"
       },
       {
         "name": "PHILIPSTV",
@@ -414,7 +447,8 @@ var data = [
           "SMART. FUN. EASY TO CONTROL: The fast, intuitive SAPHI operating system makes your Philips Smart TV a pleasure to use. Enjoy great picture quality and one-button access to a clear icon-based menu, with easy access to all your favorite Smart TV apps like Netflix, Disney+, and Amazon Prime Video."
         ],
         "imgPath": "../img/PHILIPSTV.jpg",
-        "price": "£430.00"
+        "price": "£430.00",
+        "type":"tv"
       },
       {
         "name": "LGTV",
@@ -427,7 +461,8 @@ var data = [
           "Enhance your gaming experience with built-in Game Optimizer and ALLM"
         ],
         "imgPath": "../img/LGTV.jpg",
-        "price": "£360.00"
+        "price": "£360.00",
+        "type":"tv"
       },
       {
         "name": "TOSHIBATV",
@@ -441,7 +476,8 @@ var data = [
           "Watch what you want - Toshiba 4K Ultra HD with Fire TV built-in Series gives you access to hundreds of thousands of films and TV episodes."
         ],
         "imgPath": "../img/ToshibaTV.jpg",
-        "price": "£250.00"
+        "price": "£250.00",
+        "type":"tv"
       },
       {
         "name": "TCLTV",
@@ -456,7 +492,8 @@ var data = [
           "COMPLETELY FLAT SCREEN WITH LIGHTWEIGHT CONSTRUCTION AND A CONTEMPORARY LOOK, which will slot into living rooms seamlessly."
         ],
         "imgPath": "../img/TCLTV.jpg",
-        "price": "£140.00"
+        "price": "£140.00",
+        "type":"tv"
       },
       {
         "name": "SYLVOXTV",
@@ -469,7 +506,8 @@ var data = [
           "【No Worries Guarantee】 We take full responsibility for the outdoor TV, if there is any problem with the 55inch television you received, please feel free to contact us, we provide every customer with 30-day return and one-year warranty service to ensure you have a wonderful shopping experience."
         ],
         "imgPath": "../img/SYLVOXTV.jpg",
-        "price": "£2,600.00"
+        "price": "£2,600.00",
+        "type":"tv"
       },
       {
         "name": "T4TECTV",
@@ -484,7 +522,8 @@ var data = [
           "AV Input x 1"
         ],
         "imgPath": "../img/T4TECTV.jpg",
-        "price": "£110.00"
+        "price": "£110.00",
+        "type":"tv"
       },
       {
         "name": "BAUHNTV",
@@ -495,7 +534,8 @@ var data = [
           "Play, youtube, netflix, chromecast built-in, hdmi, usb, bluetooth. Black (2022 model)"
         ],
         "imgPath": "../img/BAUHNTV.jpg",
-        "price": "£220.00"
+        "price": "£220.00",
+        "type":"tv"
       },
       {
         "name": "IFFALCONTV",
@@ -508,7 +548,8 @@ var data = [
           "Sport mode&Game mode: It switches to Sports Mode when a sports signal is detected, for an immersive live stadium experience, from picture to sound. Game mode boosts your chances of scoring legendary wins by significantly reducing input lag"
         ],
         "imgPath": "../img/IFFALCONTV.jpg",
-        "price": "£330.00"
+        "price": "£330.00",
+        "type":"tv"
       },
       {
         "name": "PANASONICTV",
@@ -521,7 +562,8 @@ var data = [
           "HDR Multi Format - Optimal brightness and colour - whatever the source - By supporting 3 leading HDR (High Dynamic Range) formats our premium TVs assure best possible performance - regardless of picture source. Brightness and colour are optimized whether the source is Dolby Vision, HLG, HDR10."
         ],
         "imgPath": "../img/PANASONICTV.jpg",
-        "price": "£550.00"
+        "price": "£550.00",
+        "type":"tv"
       },
       {
         "name": "MIC",
@@ -534,7 +576,8 @@ var data = [
           "PLUG AND PLAY USB CONDENSER MICROPHONE: Talk GO offers a 5-foot USB/USB-C input cable to plug into your device and operate your recording hassle-free. Use the standard-sized 5/8” input for swivel mounting anything, like camera tripods or other stands. Talk GO is driver-free and features plug and play, allowing you to start recording within seconds."
         ],
         "imgPath": "../img/MIC.jpg",
-        "price": "£30.00"
+        "price": "£30.00",
+        "type":"accessorie"
       },
       {
         "name": "AIRPOP",
@@ -547,7 +590,8 @@ var data = [
           "DUAL CONNECT & CONTROL IT ALL: Use either earbud independently or use both and experience a seamless connection. Both earbuds auto-connect to your device, so no need to worry about switching or missing a connection. A built-in MEMS microphone in each bud ensures clear calls. Conveniently control all your music with a push or two on the outside of the earpiece to activate Siri, Google Assistant, and other voice assistants or take phone calls and keep GOing on the move."
         ],
         "imgPath": "../img/AIRPOP.jpg",
-        "price": "£30.00"
+        "price": "£30.00",
+        "type":"accessorie"
       },
       {
         "name": "EPICMOUSE",
@@ -560,7 +604,8 @@ var data = [
           "CUSTOM USER PROFILES: Through the JLab Work App, you can program specific buttons to fit how you like to use your favorite applications. Paste your most used formulas or paste the same text with a simple click of a button. With up to three unique profiles, you can easily switch between them depending on what you`re doing."
         ],
         "imgPath": "../img/EPICMOUSE.jpg",
-        "price": "£60.00"
+        "price": "£60.00",
+        "type":"accessorie"
       },
       {
         "name": "MASCARNEY",
@@ -573,7 +618,8 @@ var data = [
           "【Customer Service】 Standard Amazon after-sales service is provided. We have checked the appearance and function of all wired headsets before shipping. If there is any damage, original defect, or another transportation defect, we will provide free product replacement or resend support. If you have any questions about products or purchases, please do not hesitate to contact us."
         ],
         "imgPath": "../img/MASCARNEY.jpg",
-        "price": "£10.00"
+        "price": "£10.00",
+        "type":"accessorie"
       },
       {
         "name": "SRHYTHM",
@@ -586,7 +632,8 @@ var data = [
           "Over the Ear: Enhanced physical noise reduction by seamless over-ear pads, super comfortable wearing experience by breathable well-made materials. What`s more, Exclusive Designs of Air Pressure Balance by Srhythm. To reduce sound wave pressure of active noise reduction, to feel much more comfortable to wear than all other brands."
         ],
         "imgPath": "../img/SRHYTHM.jpg",
-        "price": "£50.00"
+        "price": "£50.00",
+        "type":"accessorie"
       },
       {
         "name": "WEBCAM",
@@ -599,7 +646,8 @@ var data = [
           "Easy Plug and Play, Excellent Compatibility: No additional adapters or drivers required. The USB 2.0 plug and play gets you set up and installed on your laptop, desktop, or TV within seconds. You can use the webcam in most popular conferencing APPs, such as Skype, Zoom, Microsoft Teams, Facebook, Twitch; supports almost all operating systems, including Windows XP/7/8/10/11 and above, Mac OS 10.6 and above, Android V5.0 and higher, and Chrome OS 29.0.1547 or later."
         ],
         "imgPath": "../img/WEBCAM.jpg",
-        "price": "£40.00"
+        "price": "£40.00",
+        "type":"accessorie"
       },
       {
         "name": "WIRELESSMOUSE",
@@ -612,7 +660,8 @@ var data = [
           "Energy Saving Mobile Mouse: LEADSAiL mobile mouse keeps going with months battery life of power on a single AA battery (Not included in the package). Automatic sleep mode and an On/Off switch save power, while an indicator light eliminates surprises. (Battery life may vary based on use and computing conditions.)"
         ],
         "imgPath": "../img/WIRELESSMOUSE.jpg",
-        "price": "£10.00"
+        "price": "£10.00",
+        "type":"accessorie"
       },
       {
         "name": "AUXADAPTER",
@@ -625,7 +674,8 @@ var data = [
           "Reliable Service: Standard Amazon after-sales service is provided. We have checked the appearance and function of all MAS CARNEY Headphone Adapters. If there is any damage, original defect, or other defect in transportation, we will provide free product replacement support. If you have any questions about products or purchases, please do not hesitate to contact us."
         ],
         "imgPath": "../img/AUXADAPTER.jpg",
-        "price": "£5.00"
+        "price": "£5.00",
+        "type":"accessorie"
       },
       {
         "name": "USBCHUB",
@@ -639,7 +689,8 @@ var data = [
           "Make sure that the laptop or tablet has a full-function Type C port; otherwise, the HDMI port of the product will not be compatible. If the HDMI port does not extend displays, try changing the cable."
         ],
         "imgPath": "../img/USBCHUB.jpg",
-        "price": "£15.00"
+        "price": "£15.00",
+        "type":"accessorie"
       },
       {
         "name": "SUNTRSI",
@@ -652,7 +703,8 @@ var data = [
           "Do The Best: Using the iPhone to USB adapter will bring you more convenience."
         ],
         "imgPath": "../img/SUNTRSI.jpg",
-        "price": "£15.00"
+        "price": "£15.00",
+        "type":"accessorie"
       },
       {
         "name": "AUKIVITE",
@@ -665,7 +717,8 @@ var data = [
           "Retractable and Foldable: The tripod selfie stick is compact and foldable, measuring 7.08 inches (18cm) in length when folded and weighing approximately 115 grams. Its compact design makes it easy to carry on the go, perfect for capturing photos or recording videos during your travels or work."
         ],
         "imgPath": "../img/AUKIVITE.jpg",
-        "price": "£15.00"
+        "price": "£15.00",
+        "type":"accessorie"
       },
       {
         "name": "LUMSBURRY",
@@ -678,7 +731,8 @@ var data = [
           "Plug-and-Play User-Friendly: It comes with a 1.45m/57-inch USB cable and requires no driver installation. Compatible with Windows 10/8/7/Vista/XP and Mac OS."
         ],
         "imgPath": "../img/LUMSBURRY.jpg",
-        "price": "£15.00"
+        "price": "£15.00",
+        "type":"accessorie"
       },      
       {
         "name": "ASIDE",
@@ -691,7 +745,8 @@ var data = [
           "ERGONOMIC DESIGN: Designed with ergonomics in mind, the keyboard provides a comfortable typing experience and helps reduce hand fatigue, making it suitable for long work sessions and gaming."
         ],
         "imgPath": "../img/ASIDE.jpg",
-        "price": "£15.00"
+        "price": "£15.00",
+        "type":"accessorie"
       }
       
       
