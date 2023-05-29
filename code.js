@@ -50,8 +50,8 @@ function buyButton() {
     document.getElementById("popupContainer").appendChild(overlay);
     document.getElementById("popupContainer").appendChild(popup);
 }
+
 function closepopup() {
-    // var closeButton = document.querySelector('.closeButton');
     var popupContainer = document.getElementById("popupContainer");
     
     popupContainer.removeChild(popupContainer.firstChild);
@@ -76,6 +76,19 @@ function fillBasket(){
         console.log(total)
         var imagem = document.createElement("img");
         imagem.src = arrayProduct.imgPath;
+        imagem.style.height = "130px"
+        if(arrayProduct.type == "laptop"){
+            imagem.style.width = "200px"
+        }
+        if (arrayProduct.type == "phone") {
+            imagem.style.width = "100px"
+        }
+        if (arrayProduct.type == "tv") {
+            imagem.style.width = "230px"
+        }
+        if (arrayProduct.type == "accessorie") {
+            imagem.style.width = "150px"
+        }
         container.appendChild(imagem);
     });
     var formattedTotal = '£' + total.toLocaleString('en-GB', { minimumFractionDigits: 2, maximumFractionDigits: 2 });
@@ -99,9 +112,26 @@ function changeInfo(){
         return obj.name === name;
     });
     document.getElementById("nameP").textContent = arrayProduct.fullName;
-    document.getElementById("imgP").src = arrayProduct.imgPath;
+
+    // img size
+    var imagem = document.getElementById("imgP")
+    imagem.src = arrayProduct.imgPath;
+    imagem.style.height = "130px"
+    if(arrayProduct.type == "laptop"){
+        imagem.style.width = "200px"
+    }
+    if (arrayProduct.type == "phone") {
+        imagem.style.width = "100px"
+    }
+    if (arrayProduct.type == "tv") {
+        imagem.style.width = "230px"
+    }
+    if (arrayProduct.type == "accessorie") {
+        imagem.style.width = "150px"
+    }
+
     document.getElementById("priceP").textContent = arrayProduct.price;
-    // document.getElementById("descP").innerHTML = arrayProduct.desc;
+
     arrayProduct.desc.forEach(item => {
         const li = document.createElement("li");
         li.textContent = item;
