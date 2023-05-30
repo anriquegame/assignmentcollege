@@ -146,12 +146,19 @@ footer p{
     margin-top: 75px;
     width: 600px;
 }
+#productBasket img{
+    border: 1px solid #d5d5d5;
+    padding: 5px;
+    margin: 2px;
+    border-radius: 5px;
+}
 #textBasket{
     margin-top: 75px;
 }
 .textdiv{
     margin-left: 200px;
     margin-right: 75px;
+    margin-bottom: 20px;
 }
 #nameP{
     margin: 75px 30px 20px;
