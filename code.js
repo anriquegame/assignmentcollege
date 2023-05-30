@@ -116,18 +116,18 @@ function changeInfo(){
     // img size
     var imagem = document.getElementById("imgP")
     imagem.src = arrayProduct.imgPath;
-    imagem.style.height = "130px"
+    imagem.style.height = "260px"
     if(arrayProduct.type == "laptop"){
-        imagem.style.width = "200px"
+        imagem.style.width = "400px"
     }
     if (arrayProduct.type == "phone") {
-        imagem.style.width = "100px"
+        imagem.style.width = "200px"
     }
     if (arrayProduct.type == "tv") {
-        imagem.style.width = "230px"
+        imagem.style.width = "460px"
     }
     if (arrayProduct.type == "accessorie") {
-        imagem.style.width = "150px"
+        imagem.style.width = "300px"
     }
 
     document.getElementById("priceP").textContent = arrayProduct.price;
