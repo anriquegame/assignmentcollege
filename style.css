@@ -161,7 +161,12 @@ footer p{
     margin-bottom: 20px;
 }
 #nameP{
-    margin: 75px 30px 20px;
+    font-family: "Arial", sans-serif;;
+    margin: 80px 30px 20px;
+}
+#priceP{
+    font-size: 25px;
+    margin: 0px 10px 10px;
 }
 #descP{
     text-align: justify;
