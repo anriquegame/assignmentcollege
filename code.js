@@ -1,10 +1,10 @@
 function openProduct(id,where){
     if(where == 2){
-        var productURL = "productpage.html?id="+id
+        var productURL = "productpage.html?id="+id;
         window.open(productURL, "_self");
     }
     else{
-        var productURL = "products/productpage.html?id="+id
+        var productURL = "products/productpage.html?id="+id;
         window.open(productURL, "_self");
     }
 }
@@ -36,11 +36,65 @@ function buyButton() {
     // popup
     var popup = document.createElement("div");
     popup.className = "popup";
-    popup.id = "popupid"
     
     // add close button to popup
     popup.innerHTML = '<button class="closeButton" onclick="closepopup()">X</button>';
     popup.innerHTML += "<h4>product added to the basket</h4>";
+
+    // create overlay
+    var overlay = document.createElement("div");
+    overlay.className = "overlay";
+    
+    // add popup to container
+    document.getElementById("popupContainer").appendChild(overlay);
+    document.getElementById("popupContainer").appendChild(popup);
+}
+
+function popupBasket(event){
+    var listJSON = localStorage.getItem("buyitem");
+    var listbuy = JSON.parse(listJSON);
+
+    var imagem = event.target
+
+    // popup
+    var popup = document.createElement("div");
+    popup.className = "popupB";
+    
+    // add close button to popup
+    popup.innerHTML = '<button class="closeButton" onclick="closepopup()">X</button>';
+    popup.innerHTML += "<h4>What do you want?</h4>";
+
+    var removeB = document.createElement("a")
+    removeB.innerHTML = "remove"
+    removeB.style.float = "left"
+    removeB.id = "removeBB"
+    popup.appendChild(removeB);
+    //remove product from list
+    removeB.addEventListener('click', function() {
+        var arrayProduct = data.find(function(obj) {
+            return obj.name == imagem.className.slice(2);
+        });
+
+        var indexP = listbuy.indexOf(arrayProduct.name);
+        if (indexP !== -1) {
+            listbuy.splice(indexP, 1);
+        }
+        console.log(listbuy);
+
+        var updatedListJSON = JSON.stringify(listbuy);
+        localStorage.setItem("buyitem", updatedListJSON);
+        location.reload();
+    })
+
+    var seeB = document.createElement("a")
+    seeB.innerHTML = "see product"
+    seeB.style.float = "right"
+    popup.appendChild(seeB);
+    //remove product from list
+    seeB.addEventListener('click', function() {
+        var productURL = "productpage.html?id="+imagem.className.slice(2);
+        window.open(productURL, "_self");
+    })
 
     // create overlay
     var overlay = document.createElement("div");
@@ -76,6 +130,7 @@ function fillBasket(){
         console.log(total)
         var imagem = document.createElement("img");
         imagem.src = arrayProduct.imgPath;
+        imagem.className = "ID"+arrayProduct.name
         imagem.style.height = "130px"
         if(arrayProduct.type == "laptop"){
             imagem.style.width = "200px"
@@ -90,6 +145,7 @@ function fillBasket(){
             imagem.style.width = "150px"
         }
         container.appendChild(imagem);
+        imagem.addEventListener('click', popupBasket)
     });
     var formattedTotal = '£' + total.toLocaleString('en-GB', { minimumFractionDigits: 2, maximumFractionDigits: 2 });
     document.getElementById("totalprice").textContent = formattedTotal;

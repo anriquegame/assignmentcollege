@@ -135,6 +135,8 @@ footer p{
     border: 2px solid #999999;
     border-radius: 5px;
     margin-bottom: 100px;
+    text-decoration: none;
+    color: black;
 }
 #productContent a:hover,#productContent div a:hover{
     cursor: pointer;
@@ -149,8 +151,11 @@ footer p{
 #productBasket img{
     border: 1px solid #d5d5d5;
     padding: 5px;
-    margin: 2px;
+    margin: 7px;
     border-radius: 5px;
+}
+#productBasket img:hover{
+    transform: scale(1.05);
 }
 #textBasket{
     margin-top: 75px;
@@ -176,6 +181,7 @@ footer p{
     margin: 7px;
 }
 .popup {
+    font-family: "Arial", sans-serif;
     position: fixed;
     top: 50%;
     left: 50%;
@@ -183,7 +189,6 @@ footer p{
     width: 200px;
     height: 50px;
     background-color: #fff;
-    border: 1px solid #ccc;
     border-radius: 5px;
     padding: 10px;
     z-index: 6;
@@ -195,6 +200,42 @@ footer p{
 .popup h4{
     margin: 0;
     text-align: center;
+}
+.popupB {
+    font-family: "Arial", sans-serif;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 240px;
+    height: 80px;
+    background-color: #fff;
+    border-radius: 5px;
+    padding: 10px;
+    z-index: 6;
+    font-size: 25px;
+    /* display: flex; */
+    align-items: center;
+    justify-content: center;
+}
+.popupB h4{
+    margin: 0px 0px 10px;
+    text-align: center;
+}
+.popupB a{
+    text-align: center;
+    padding: 0px 3px 0px;
+    border: 2px solid #999999;
+    border-radius: 5px;
+    text-decoration: none;
+    color: black;
+}
+.popupB a:hover{
+    cursor: pointer;
+    background-color: #a7d3ff;
+}
+#removeBB:hover{
+    background-color: #ffa7a7;
 }
 .closeButton {
     position: absolute;
