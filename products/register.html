@@ -15,22 +15,23 @@
             <a href="basket.html" class="logoR"><img src="../img\basket.png"/></a>
             <a href="../index.html" class="logoR"><img src="../img\home.png"/></a>
         </header>
-        <section id="productContent">
-            <div id="productBasket">
-
-            </div>
-            <div id="textBasket">
-                <h3 id="totalprice"></h3>
-                <a onclick="clearList()" href="">clear all</a>
-                <a>BUY</a>
-            </div>
+        <h2 id="nameP"></h2>
+        <section id="registercss">
+            <h2>register</h2>
+            <form id="formregister" onsubmit="submitRegister(event)">
+                <p style="margin-top: 0px;">username</p>
+                <input type="text" name="username" required>
+                <p>email</p>
+                <input type="email" name="email" required>
+                <p>password</p>
+                <input type="password" name="password" required>
+            <button type="submit">submit</button>
+            </form>
         </section>
-        <div id="popupContainer"></div>
         <footer>
             <h4>Contact information</h4>
             <p>email:supportinfo@gmail.com</p>
             <p>phone:+44 7472 345678</p>
         </footer>
-        <script>fillBasket()</script>
     </body>
 </html>

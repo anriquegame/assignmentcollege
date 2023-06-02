@@ -15,22 +15,17 @@
             <a href="basket.html" class="logoR"><img src="../img\basket.png"/></a>
             <a href="../index.html" class="logoR"><img src="../img\home.png"/></a>
         </header>
-        <section id="productContent">
-            <div id="productBasket">
-
-            </div>
-            <div id="textBasket">
-                <h3 id="totalprice"></h3>
-                <a onclick="clearList()" href="">clear all</a>
-                <a>BUY</a>
-            </div>
+        <h2 id="nameP"></h2>
+        <section id="profilecontent">
+            <h1 id="hello">Hello, </h1>
+            <h2 id="showemail"></h2>
+            <button onclick="logoutProfile()">LOGOUT</button>
         </section>
-        <div id="popupContainer"></div>
         <footer>
             <h4>Contact information</h4>
             <p>email:supportinfo@gmail.com</p>
             <p>phone:+44 7472 345678</p>
         </footer>
-        <script>fillBasket()</script>
+        <script>changeProfile()</script>
     </body>
 </html>

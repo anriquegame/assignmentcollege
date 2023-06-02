@@ -8,6 +8,49 @@ function openProduct(id,where){
         window.open(productURL, "_self");
     }
 }
+
+function profileIf(where) {
+    if(localStorage.getItem("inout") == 1){
+        if(where == 2){
+            var profileURL = "profile.html";
+            window.open(profileURL, "_self");
+        }
+        else{
+            var profileURL = "products/profile.html";
+            window.open(profileURL, "_self");
+        }
+    }
+    else{
+        if(where == 2){
+            var registerURL = "register.html";
+            window.open(registerURL, "_self");
+        }
+        else{
+            var registerURL = "products/register.html";
+            window.open(registerURL, "_self");
+        }
+    }
+}
+function submitRegister(event) {
+    event.preventDefault();
+
+    var username = document.querySelector('input[name="username"]').value;
+    var email = document.querySelector('input[name="email"]').value;
+
+    localStorage.setItem("inout", 1);
+    localStorage.setItem("username", username);
+    localStorage.setItem("useremail", email);
+    var profileURL = "profile.html";
+    window.open(profileURL, "_self");
+}
+function logoutProfile(){
+    localStorage.setItem("inout", 0);
+    localStorage.setItem("username", undefined);
+    localStorage.setItem("useremail", undefined);
+    var profileURL = "register.html";
+    window.open(profileURL, "_self");
+}
+
 function buyButton() {
     var queryString = window.location.search;
     var params = new URLSearchParams(queryString);
@@ -149,15 +192,20 @@ function fillBasket(){
     });
     var formattedTotal = '£' + total.toLocaleString('en-GB', { minimumFractionDigits: 2, maximumFractionDigits: 2 });
     document.getElementById("totalprice").textContent = formattedTotal;
-
 }
+
 function clearList(){
     var listbuy = [];
     var updatedListJSON = JSON.stringify(listbuy);
     localStorage.setItem("buyitem", updatedListJSON);
 }
-  
-    
+
+function changeProfile(){
+    document.getElementById("hello").textContent += localStorage.getItem("username");
+    document.getElementById("showemail").textContent = localStorage.getItem("useremail")
+}
+
+
 function changeInfo(){
     var queryString = window.location.search;
     var params = new URLSearchParams(queryString);
@@ -194,6 +242,7 @@ function changeInfo(){
         document.getElementById("descP").appendChild(li);
     });
 }
+
 function fillList() {
     data.forEach(obj => {
         var element = document.getElementById(obj.name);

@@ -258,8 +258,49 @@ footer p{
     pointer-events: auto; /* enable overlay click events */
 }
 
+/* register page */
+#registercss {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-family: "Arial", sans-serif;
+    text-align: center;
+}
+#registercss h2 {
+    font-size: 25px;
+}
+#formregister {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 10px;
+    border: 2px solid #d5d5d5;
+    border-radius: 10px;
+}
+#formregister p {
+    margin-bottom: 5px;
+}
+#formregister button{
+    margin-top: 16px;
+}
 
-
+/* profile page */
+#profilecontent{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-family: "Arial", sans-serif;
+    text-align: center;
+}
+#profilecontent h2{
+    font-style: italic;
+    font-weight: lighter;
+    font-size: 10px;
+}
+  
 /* list products */
 .listcontent{
     font-family: "Arial", sans-serif;
