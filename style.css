@@ -138,9 +138,12 @@ footer p{
     text-decoration: none;
     color: black;
 }
-#productContent a:hover,#productContent div a:hover{
+#productContent a:hover:not(#clearAllB),#productContent div a:hover:not(#clearAllB){
     cursor: pointer;
     background-color: #a7d3ff;
+}
+#clearAllB:hover{
+    background-color: #ffa7a7;
 }
 #productBasket{
     border: 2px solid rgb(80, 80, 80);
@@ -268,6 +271,7 @@ footer p{
     text-align: center;
 }
 #registercss h2 {
+    margin-top: 80px;
     font-size: 25px;
 }
 #formregister {
@@ -286,6 +290,58 @@ footer p{
     margin-top: 16px;
 }
 
+/* payform */
+#paymentForm{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-family: "Arial", sans-serif;
+    text-align: center;
+}
+#paymentForm h2{
+    margin-top: 80px;
+    font-size: 25px;
+}
+#paymentForm form{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 10px;
+    border: 2px solid #d5d5d5;
+    border-radius: 10px;
+}
+#paymentForm form p{
+    margin-bottom: 5px;
+}
+#paymentForm form button{
+    margin-top: 16px;
+}
+::placeholder {
+    color: #999999;
+}
+
+/* thanks page */
+#thanksContent{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-family: "Arial", sans-serif;
+    text-align: center;
+}
+#thanksContent h1{
+    font-size: 27px;
+}
+#thanksContent h2{
+    margin: 10px;
+    font-size: 20px;
+}
+#thanksContent span{
+    font-weight: bold;
+}
+
 /* profile page */
 #profilecontent{
     display: flex;
@@ -294,11 +350,12 @@ footer p{
     justify-content: center;
     font-family: "Arial", sans-serif;
     text-align: center;
+    font-size: 30px;
 }
 #profilecontent h2{
     font-style: italic;
     font-weight: lighter;
-    font-size: 10px;
+    font-size: 15px;
 }
   
 /* list products */
@@ -319,7 +376,6 @@ footer p{
     list-style-type: none;
     margin: 20px;
 }
-
 .inforight {
     box-sizing: border-box;
     font-size: 12px; /* font size of general */

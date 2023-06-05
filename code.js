@@ -31,6 +31,30 @@ function profileIf(where) {
         }
     }
 }
+function formIf(){
+    if(localStorage.getItem("inout") == 1){
+        var profileURL = "buy.html";
+        window.open(profileURL, "_self");
+    }
+    else{
+        var registerURL = "register.html";
+        window.open(registerURL, "_self");
+    }
+}
+function backHomeIf(){
+    var listJSON = localStorage.getItem("buyitem");
+    var listbuy;
+    try {
+      listbuy = JSON.parse(listJSON);
+    } catch (error) {
+      listbuy = [];
+    }
+    if(localStorage.getItem("inout") != 1 || listbuy.length === 0){
+        var profileURL = "../index.html";
+        window.open(profileURL, "_self");
+    }
+}
+
 function submitRegister(event) {
     event.preventDefault();
 
@@ -43,6 +67,26 @@ function submitRegister(event) {
     var profileURL = "profile.html";
     window.open(profileURL, "_self");
 }
+function submitBuy(event){
+    console.log("algo")
+    event.preventDefault();
+    localStorage.setItem("openthanks", 1);
+    var registerURL = "thankspage.html";
+    window.open(registerURL, "_self");
+}
+function backAll(){
+    var listbuy = [];
+    var updatedListJSON = JSON.stringify(listbuy);
+    localStorage.setItem("buyitem", updatedListJSON);
+    if(localStorage.getItem("openthanks") != 1){
+        var profileURL = "../index.html";
+        window.open(profileURL, "_self");
+    }
+    else{
+        localStorage.setItem("openthanks", 0);
+    }
+}
+
 function logoutProfile(){
     localStorage.setItem("inout", 0);
     localStorage.setItem("username", undefined);
@@ -191,7 +235,7 @@ function fillBasket(){
         imagem.addEventListener('click', popupBasket)
     });
     var formattedTotal = '£' + total.toLocaleString('en-GB', { minimumFractionDigits: 2, maximumFractionDigits: 2 });
-    document.getElementById("totalprice").textContent = formattedTotal;
+    document.getElementById("totalprice").textContent += formattedTotal;
 }
 
 function clearList(){
@@ -265,4 +309,28 @@ function fillList() {
             });
         }
     });
+}
+
+
+function cardNumbers(event){
+    var input = event.target;
+    var value = input.value.replace(/\s/g, '').replace(/(\d{4})(?=\d)/g, '$1 ');
+
+    input.value = value;
+}
+function dateNumbers(event){
+    var input = event.target;
+    var value = input.value.replace(/\D/g, '').substring(0, 4);
+
+    if (value.length > 2) {
+      value = value.substring(0, 2) + '/' + value.substring(2);
+    }
+
+    input.value = value;
+}
+function onlyNumbers(event) {
+    var tecla = event.which || event.keyCode;
+    if (tecla < 48 || tecla > 57) {
+      event.preventDefault();
+    }
 }
