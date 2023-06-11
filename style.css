@@ -24,6 +24,8 @@ header a{
 }
 .logoR:hover {
     filter: invert(100%);
+    cursor: pointer;
+    
 }
 #logoL {
     margin-left: 5px;
